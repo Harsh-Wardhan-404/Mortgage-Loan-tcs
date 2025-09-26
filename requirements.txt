@@ -1,0 +1,6 @@
+google-generativeai
+pypdf
+beautifulsoup4
+requests
+openai
+groq
