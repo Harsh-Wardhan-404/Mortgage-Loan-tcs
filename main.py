@@ -275,21 +275,44 @@ def group_pages_by_count(text: str, group_size: int, overlap_pages: int) -> List
 
 
 def call_ollama(model_name: str, prompt: str, base_url: str = "http://localhost:11434") -> str:
-    url = f"{base_url}/api/chat"
-    payload = {
-        "model": model_name,
-        "messages": [{"role": "user", "content": prompt}],
-        "options": {"temperature": 0.2},
-        "format": "json",
-    }
-    response = requests.post(url, json=payload, timeout=600)
-    response.raise_for_status()
-    data = response.json()
-    if "message" in data and "content" in data["message"]:
-        return data["message"]["content"]
-    if "response" in data:
-        return data["response"]
-    raise RuntimeError("Unexpected Ollama response format")
+	url = f"{base_url}/api/chat"
+	payload = {
+		"model": model_name,
+		"messages": [{"role": "user", "content": prompt}],
+		"options": {"temperature": 0.2},
+		"format": "json",
+		"stream": False  # ensure a single JSON response
+	}
+	resp = requests.post(url, json=payload, timeout=600)
+	resp.raise_for_status()
+	try:
+		data = resp.json()
+	except requests.exceptions.JSONDecodeError:
+		# Fallback: handle NDJSON (streamed) response
+		content = ""
+		for line in resp.text.splitlines():
+			line = line.strip()
+			if not line:
+				continue
+			try:
+				obj = json.loads(line)
+				# Ollama stream lines often contain 'message': {'content': '...'} fragments
+				if "message" in obj and obj["message"].get("content"):
+					content += obj["message"]["content"]
+				elif "response" in obj:
+					content += obj["response"]
+			except Exception:
+				continue
+		if not content.strip():
+			raise
+		return content
+
+	# Non-streaming path
+	if "message" in data and "content" in data["message"]:
+		return data["message"]["content"]
+	if "response" in data:
+		return data["response"]
+	raise RuntimeError("Unexpected Ollama response format")
 
 
 def call_openai(model_name: str, prompt: str) -> str:
@@ -480,7 +503,11 @@ def main() -> None:
         except Exception:
             match = re.search(r"\{[\s\S]*\}\s*$", raw_response)
             if match:
-                chunk_obj = ensure_json(match.group(0))
+                try:
+                    chunk_obj = ensure_json(match.group(0))
+                except Exception:
+                    notes.append(f"Chunk {idx + 1}: failed to parse JSON; content skipped")
+                    continue
             else:
                 notes.append(f"Chunk {idx + 1}: failed to parse JSON; content skipped")
                 continue

@@ -6648,10 +6648,3051 @@
           "chunk:16/17"
         ]
       }
-     
-      
-      
-      
     ]
+  },
+  {
+    "metadata": {
+      "source_path": "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+      "doc_type": "regulatory",
+      "language": "en",
+      "notes": ""
+    },
+    "qna": [
+      {
+        "question": "What is the name of the act?",
+        "answer": "The National Housing Bank Act, 1987",
+        "citations": [
+          "P1",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "Which acts have amended the National Housing Bank Act?",
+        "answer": "1. The Voluntary Deposits (Immunities and Exemptions) Act, 1991 (47 of 1991).\n2. The National Housing Bank (Amendment) Act, 2000 (15 of 2000).\n3. The Finance Act, 2001 (14 of 2001).\n4. The Credit Information Companies (Regulation) Act, 2005 ( 30 of 2005)\n5. The Banking Companies (Acquisition & Transfer of Undertaking) and Financial Institutions Laws (Amendment) Act, 2006 ( 45 of 2006)\n6. The Finance Act, 2018 (13 of 2018).\n7. The Finance (No. 2) Act, (23 of 2019).\n8. The Jan Vishwas (Amendment of Provisions) Act, 2023 (18 of 2023)",
+        "citations": [
+          "P2",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What is the enforceable obligation for eligibility to be a depositor?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What are the disclosure requirements for depositors?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What is the KYC/AML obligation for depositors?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What are the mortgage-related clauses in the act?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What is the risk that depositors should be aware of?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What are the timelines for compliance?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for non-compliance?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "Are there any exceptions to the obligations?",
+        "answer": "Not specified in this document.",
+        "citations": [
+          "P1-P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What are the abbreviations used in the act?",
+        "answer": "Ins. Inserted.\nP. Page.\nPt. Part.\nS. Section.\nSec. Section.\nSubs. Substituted.\nw.e.f. with effect from",
+        "citations": [
+          "P4",
+          "chunk:1/37"
+        ]
+      },
+      {
+        "question": "What is the short title, extent, and commencement of the National Housing Bank Act?",
+        "answer": "The short title of the act is not specified. The extent and commencement are as stated in Section 1.",
+        "citations": [
+          "S. 1",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What is defined under the National Housing Bank Act?",
+        "answer": "Definitions are provided in Sections 2-2.",
+        "citations": [
+          "S. 2-2",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "How is the National Housing Bank established and incorporated?",
+        "answer": "The National Housing Bank is established and incorporated as per Section 3.",
+        "citations": [
+          "S. 3",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What is the capital of the National Housing Bank?",
+        "answer": "The capital of the National Housing Bank is defined in Section 4.",
+        "citations": [
+          "S. 4",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "Who manages the National Housing Bank?",
+        "answer": "Management is discussed in Section 5.",
+        "citations": [
+          "S. 5",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What are the disqualifications for becoming a director of the National Housing Bank?",
+        "answer": "Disqualifications are outlined in Section 8.",
+        "citations": [
+          "S. 8",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What is the process for vacation and resignation of office by directors of the National Housing Bank?",
+        "answer": "This is discussed in Sections 9 and 7-8.",
+        "citations": [
+          "S. 9, S. 7-8",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What are the mortgage-related clauses in the National Housing Bank Act?",
+        "answer": "Clauses related to assistance to borrowers when operating as a charge in property offered as security and amount and security to be held in trust can be found in Sections 16A and 16B.",
+        "citations": [
+          "S. 16A, S. 16B",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What are the KYC/AML obligations of the National Housing Bank?",
+        "answer": "The power to collect credit information and publish information is outlined in Sections 25 and 26.",
+        "citations": [
+          "S. 25, S. 26",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What are the eligibility criteria for housing finance institutions under the National Housing Bank Act?",
+        "answer": "Eligibility criteria are discussed in Section 29A.",
+        "citations": [
+          "S. 29A",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What is the role of the Reserve Bank in regulating or prohibiting issue of prospectus or advertisement soliciting deposits of money?",
+        "answer": "The role of the Reserve Bank is outlined in Section 30.",
+        "citations": [
+          "S. 30",
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for non-compliance with the National Housing Bank Act?",
+        "answer": "Penalties are not explicitly stated in this document, but non-compliance may result in legal action as per general regulatory practices.",
+        "citations": [
+          "chunk:2/37"
+        ]
+      },
+      {
+        "question": "What is the obligation regarding the amount and security to be held in trust?",
+        "answer": "The National Housing Bank must hold a certain amount and security in trust. (Section 16B)",
+        "citations": [
+          "16B",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to transfer rights?",
+        "answer": "The National Housing Bank has the power to transfer rights. (Section 17)",
+        "citations": [
+          "17",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to acquire rights?",
+        "answer": "The National Housing Bank has the power to acquire rights. (Section 18)",
+        "citations": [
+          "18",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the exemption from registration for the National Housing Bank?",
+        "answer": "There is an exemption from registration for the National Housing Bank. (Section 18A)",
+        "citations": [
+          "18A",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to call for repayment before the agreed period?",
+        "answer": "The National Housing Bank has the power to call for repayment before the agreed period. (Section 20)",
+        "citations": [
+          "20",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to inspect?",
+        "answer": "The National Housing Bank has the power to inspect. (Section 24)",
+        "citations": [
+          "24",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to collect credit information?",
+        "answer": "The National Housing Bank has the power to collect credit information. (Section 25)",
+        "citations": [
+          "25",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the policy regarding loans or advances against the National Housing Bank's own bonds and debentures?",
+        "answer": "The National Housing Bank cannot make any loans or advances against its own bonds and debentures. (Section 23)",
+        "citations": [
+          "23",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the power to impose conditions for accommodation?",
+        "answer": "The National Housing Bank has the power to impose conditions for accommodation. (Section 19)",
+        "citations": [
+          "19",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What are the provisions relating to housing finance institutions?",
+        "answer": "There are provisions relating to housing finance institutions in Chapter V of the document. (Chapter V)",
+        "citations": [
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the definition of a deposit?",
+        "answer": "The definition of a deposit is provided in Chapter V of the document. (Section 28)",
+        "citations": [
+          "28",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What are the requirements for registration and net owned fund for housing finance institutions?",
+        "answer": "The requirements for registration and net owned fund for housing finance institutions are provided in Section 29B. (Section 29B)",
+        "citations": [
+          "29B",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the power to order repayment of a deposit?",
+        "answer": "The power to order repayment of a deposit is provided in Section 36A. (Section 36A)",
+        "citations": [
+          "36A",
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What are the provisions related to funds, accounts, and audit?",
+        "answer": "The provisions related to funds, accounts, and audit are provided in Chapter VI of the document. (Chapter VI)",
+        "citations": [
+          "chunk:3/37"
+        ]
+      },
+      {
+        "question": "What is the short title of the Act?",
+        "answer": "The National Housing Bank Act, 1987",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What is the extent of this Act?",
+        "answer": "It extends to the whole of India",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What is the composition of the Board of Directors?",
+        "answer": "The Board of Directors of the National Housing Bank referred to in section 6",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What is the power of the Central Government regarding the commencement of this Act?",
+        "answer": "The Central Government may, by notification in the Official Gazette, appoint different dates for different provisions of this Act and any reference in any provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to penalties?",
+        "answer": "Penalties are outlined in sections 49 to 52A of the Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 9,10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to offences by Companies?",
+        "answer": "Offences by Companies are outlined in section 50 of the Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 9",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to cognizance of offences?",
+        "answer": "Cognizance of offences is outlined in section 51 of the Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 9",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to the application of fine?",
+        "answer": "The application of fine is outlined in section 52 of the Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 9",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to the power of National Housing Bank and Reserve Bank to impose fine?",
+        "answer": "The power of National Housing Bank and Reserve Bank to impose fine is outlined in sections 52A of the Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 9",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to KYC/AML?",
+        "answer": "There is no explicit mention of KYC/AML in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to mortgage?",
+        "answer": "There is no explicit mention of mortgage in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to eligibility?",
+        "answer": "There is no explicit mention of eligibility in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to disclosures?",
+        "answer": "There is no explicit mention of disclosures in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to risk?",
+        "answer": "There is no explicit mention of risk in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to timelines?",
+        "answer": "The document mentions different dates for different provisions of this Act, but there is no explicit mention of specific timelines.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf:Page 10",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to penalties exceptions?",
+        "answer": "There is no explicit mention of penalties exceptions in the provided document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf",
+          "chunk:4/37"
+        ]
+      },
+      {
+        "question": "When did the National Housing Bank come into force?",
+        "answer": "Different dates were appointed for different provisions. The Act was brought into force on 9th July, 1988 and 1st June, 1989.",
+        "citations": [
+          "/Page 10",
+          "/Page 11",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "What is the definition of 'housing finance institution'?",
+        "answer": "'Housing finance institution' includes every institution, whether incorporated or not, which primarily transacts or has as one of its principal objects, the transacting of the business of providing finance for housing, whether directly or indirectly.",
+        "citations": [
+          "/Page 11",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "What is the authorised and paid up capital of the National Housing Bank?",
+        "answer": "The authorised and paid up capital of the National Housing Bank is one thousand four hundred and fifty crores of rupees.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "Who can increase the authorised capital of the National Housing Bank?",
+        "answer": "The Central Government may, by notification, increase the authorised capital up to two thousand crores of rupees or such other amount as may be determined by it from time to time.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "Who can issue the increased authorised capital of the National Housing Bank?",
+        "answer": "The Board may, on such terms and conditions, as determined by it from time to time, issue the increased authorised capital to the Central Government, scheduled banks, public financial institutions, housing finance institutions or such other institutions, as may be approved by the Central Government.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "What is the minimum percentage of issued capital that the Central Government, public sector banks, public financial institutions or other institutions owned or controlled by the Central Government should hold at any time?",
+        "answer": "No increase in the issued capital shall be made in such manner that the Central Government, public sector banks, public financial institutions or other institutions owned or controlled by the Central Government, hold in aggregate at any time, less than 51% of the issued capital of the National Housing Bank.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "Where is the head office of the National Housing Bank located?",
+        "answer": "The head office of the National Housing Bank shall be at New Delhi or at such other place as the Central Government may, by notification, specify.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "Can the National Housing Bank establish offices, branches or agencies outside India?",
+        "answer": "Yes, with the previous approval of the Central Government.",
+        "citations": [
+          "/Page 12",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "What is the meaning of 'notification' in this Act?",
+        "answer": "'Notification' means a notification published in the Official Gazette.",
+        "citations": [
+          "/Page 11",
+          "chunk:5/37"
+        ]
+      },
+      {
+        "question": "What is the name by which the National Housing Bank can sue and be sued?",
+        "answer": "National Housing Bank",
+        "citations": [
+          "/Page 12, Line 3",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "What is the authorized and paid up capital of the National Housing Bank?",
+        "answer": "One thousand four hundred and fifty crores of rupees",
+        "citations": [
+          "/Page 12, Line 6",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Can the Central Government increase the authorized capital of the National Housing Bank?",
+        "answer": "Yes, by notification",
+        "citations": [
+          "/Page 12, Line 5",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Who can issue increased authorised capital to the National Housing Bank?",
+        "answer": "The Board of Directors",
+        "citations": [
+          "/Page 12, Line 7",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "What percentage of the issued capital of the National Housing Bank must be held by the Central Government, public sector banks, public financial institutions or other institutions owned or controlled by the Central Government?",
+        "answer": "At least 51%",
+        "citations": [
+          "/Page 12, Line 8",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "When did the subscribed capital of one thousand four hundred and fifty crore rupees stand transferred to and vested in the Central Government?",
+        "answer": "W.e.f. 19.03.2019",
+        "citations": [
+          "/Page 13, Line 2",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Who has the general superintendence, direction and management of the affairs and business of the National Housing Bank?",
+        "answer": "The Board of Directors",
+        "citations": [
+          "/Page 14, Line 3",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Who shall exercise all powers and do all acts and things which may be exercised or done by the National Housing Bank in the discharge of its functions?",
+        "answer": "The Chairman or the Managing Director as applicable",
+        "citations": [
+          "/Page 14, Line 5",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Who shall follow such directions as the Chairman may give in the discharge of powers and functions?",
+        "answer": "The Managing Director",
+        "citations": [
+          "/Page 14, Line 4",
+          "chunk:6/37"
+        ]
+      },
+      {
+        "question": "Who appoints the Chairman and Managing Director of National Housing Bank?",
+        "answer": "The Central Government.",
+        "citations": [
+          "Page 15, Line 6",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "Who nominates the director referred to in clause (d) of section 6?",
+        "answer": "The Reserve Bank.",
+        "citations": [
+          "Page 15, Line 6",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "What is the term of office for the Chairman and Managing Director?",
+        "answer": "Not exceeding five years. They are eligible for re-appointment.",
+        "citations": [
+          "Page 15, Lines 7-8",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "What is the term of office for directors referred to in sub-section (2) of section 7?",
+        "answer": "Three years.",
+        "citations": [
+          "Page 15, Line 20",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "Who can remove the Chairman or Managing Director before the expiry of their term of office?",
+        "answer": "The Central Government.",
+        "citations": [
+          "Page 15, Line 34",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "What are the disqualifications for a person to be a director of the Board?",
+        "answer": "Unsound mind, moral turpitude conviction, insolvency, removal or dismissal from government service, etc.",
+        "citations": [
+          "Page 16, Lines 2-8",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "What happens if a director is absent without leave for three or more consecutive meetings?",
+        "answer": "His seat becomes vacant.",
+        "citations": [
+          "Page 16, Lines 9-10",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "Who pays fees and allowances to directors attending the meetings of the Board or its committees?",
+        "answer": "Prescribed authorities.",
+        "citations": [
+          "Page 16, Line 28",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "Are fees payable to any director who is an official of the Government or a director of the Reserve Bank?",
+        "answer": "No.",
+        "citations": [
+          "Page 16, Lines 30-31",
+          "chunk:7/37"
+        ]
+      },
+      {
+        "question": "Who has the right to relinquish their office before the expiry of the term specified under sub-section (1)?",
+        "answer": "The Managing Director, as the case may be.",
+        "citations": [
+          "Page 16",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What is the notice period for relinquishing office by the Managing Director?",
+        "answer": "Three months in writing or three months' salary and allowances in lieu thereof.",
+        "citations": [
+          "Page 16",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What fees are directors paid for attending meetings of the Board or its committees?",
+        "answer": "Fees and allowances as may be prescribed.",
+        "citations": [
+          "Page 16",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "Who is not eligible to receive such fees as a director?",
+        "answer": "A director who is an official of the Government or a director of the Reserve Bank.",
+        "citations": [
+          "Page 16",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What are the disqualifications for being a director of the Board?",
+        "answer": "Being of unsound mind, convicted of an offense involving moral turpitude, adjudicated as insolvent or has suspended payment of his debts, removed or dismissed from certain services, or any other reason leading to removal from service.",
+        "citations": [
+          "Page 16-17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What happens if a director becomes subject to any of the disqualifications mentioned in section 8?",
+        "answer": "His seat shall thereupon become vacant.",
+        "citations": [
+          "Page 17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "How can a director resign his office?",
+        "answer": "By giving notice in writing to the appointing authority and on his resignation being accepted, or if his resignation is not sooner accepted, on the expiry of three months from the receipt thereof by such appointing authority.",
+        "citations": [
+          "Page 17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "Who can act in place of the Chairman or Managing Director if they are absent?",
+        "answer": "The Central Government may appoint another person to act in his place during his absence.",
+        "citations": [
+          "Page 17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What rules must be observed by the Board in regard to the transaction of business at its meetings?",
+        "answer": "Such rules as may be prescribed.",
+        "citations": [
+          "Page 17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "Who presides at a meeting of the Board if both the Chairman and Managing Director are unable to attend?",
+        "answer": "Any director elected by the directors present from among themselves at the meeting.",
+        "citations": [
+          "Page 17",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What committees can be constituted by the Board and what functions can they discharge?",
+        "answer": "The Board may constitute an Executive Committee or other committees, whether consisting wholly of directors or wholly of other persons or partly of directors and partly of other persons as it thinks fit for such purposes, as it may decide. The Executive Committee or any other committee shall discharge such functions as may be delegated to it by the Board.",
+        "citations": [
+          "Page 17-18",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What are the circumstances under which a director or member of a committee cannot participate in meetings?",
+        "answer": "Any director of the Board or any member of a committee, who has any direct or indirect pecuniary interest in any matter coming up for consideration at a meeting of the Board or a committee thereof, shall not take any part in any deliberation or decision of the Board or the committee with respect to that matter.",
+        "citations": [
+          "Page 18",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "What kinds of business can the National Housing Bank transact?",
+        "answer": "The National Housing Bank may transact all or any of the following kinds of business: promoting, establishing, supporting or aiding in the promotion, establishment and support of housing finance institutions; making of loans and advances or rendering any other form of financial assistance for housing activities to housing finance institutions, scheduled banks, state co-operative agricultural and rural development banks or any other institution or class of institutions as may be notified by the Central Government; subscribing to or purchasing stocks, shares, bonds, debentures and securities of every other description.",
+        "citations": [
+          "Page 18",
+          "chunk:8/37"
+        ]
+      },
+      {
+        "question": "Who should not participate in meetings regarding matters with a direct or indirect pecuniary interest?",
+        "answer": "Any director of the Board or any member of a committee, who has any direct or indirect pecuniary interest in any matter coming up for consideration at a meeting of the Board or a committee thereof.",
+        "citations": [
+          "Page 18",
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for non-compliance with the provisions regarding borrowings and acceptance of deposits by National Housing Bank?",
+        "answer": "The specific penalties for non-compliance with the provisions regarding borrowings and acceptance of deposits by National Housing Bank were not found in the provided document.",
+        "citations": [
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "Who can authorize the National Housing Bank to act as agent?",
+        "answer": "The Central Government, the State Government or the Reserve Bank can authorise the National Housing Bank to act as agent.",
+        "citations": [
+          "Page 20",
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What is clause (a) of section 2 of the Voluntary Deposits (Immunities and Exemptions) Act, 1991?",
+        "answer": "Clause (a) of section 2 of the Voluntary Deposits (Immunities and Exemptions) Act, 1991 was not found in the provided document.",
+        "citations": [
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What is the minimum percentage of the amount of voluntary deposits that should be credited to a special fund created under section 37?",
+        "answer": "Forty per cent. of the amount of such deposits should be credited to a special fund created under section 37.",
+        "citations": [
+          "Page 19",
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What is the eligibility for forming, promoting and managing subsidiaries for carrying out all or any of its functions under this Act?",
+        "answer": "The Central Government may, on the recommendation of the Reserve Bank, authorise.",
+        "citations": [
+          "Page 20",
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations regarding KYC/AML for the National Housing Bank?",
+        "answer": "The specific KYC/AML obligations for the National Housing Bank were not found in the provided document.",
+        "citations": [
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What are the mortgage-related clauses in this regulatory document?",
+        "answer": "The National Housing Bank can buy, sell or otherwise deal in any loans or advances secured by mortgage or charge of the immovable property relating to scheduled banks or housing finance institutions (Section 14(ea)). The National Housing Bank can create one or more trusts and transferring loans or advances together with or without securities therefor to such trusts for consideration, where the loans or advances are secured by mortgage or charge of immovable property relating to scheduled banks or housing finance institutions (Section 14(eb)).",
+        "citations": [
+          "Page 19",
+          "chunk:9/37"
+        ]
+      },
+      {
+        "question": "What are the functions of National Housing Bank as per the Act?",
+        "answer": "The National Housing Bank can formulate schemes for mobilization of resources and extension of credit for housing, economically weaker sections, organizing training programs, providing guidelines to housing finance institutions, technical and administrative assistance, coordinating with other financial institutions, exercising powers and functions in the performance of duties under this Act or any other law, acting as agent of the Central Government, State Government or Reserve Bank, doing all matters incidental to or consequential upon the exercise of its powers or discharge of its duties under this Act, and any other kind of business authorized by the Central Government on the recommendation of the Reserve Bank.",
+        "citations": [
+          "Page 20",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What are the borrowing and deposit acceptance powers of National Housing Bank?",
+        "answer": "The National Housing Bank can issue and sell bonds and debentures, borrow money from the Central Government, scheduled banks, financial institutions, mutual funds, accept deposits repayable after the expiry of a specified period on terms approved by the Reserve Bank, borrow money from the Reserve Bank out of the National Housing Credit (Long Term Operations) Fund, receive remuneration, commission, etc., receive gifts, grants, donations or benefactions from Government or any other source, and guarantee the bonds and debentures issued by the National Housing Bank as to the repayment of principal and the payment of interest at a rate fixed by the Central Government.",
+        "citations": [
+          "Page 21",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "Can National Housing Bank borrow foreign currency?",
+        "answer": "Yes, National Housing Bank can borrow foreign currency from any bank or financial institution in India or elsewhere for the purpose of making loans and advances under this Act.",
+        "citations": [
+          "Page 22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What is the process for a charge on property offered as security?",
+        "answer": "When any person or institution seeks financial assistance from National Housing Bank on the security of any immovable property, they must execute a written declaration stating the particulars of the immovable property which is proposed to be offered as security. If the National Housing Bank grants any financial assistance, the dues relating to such assistance shall be a charge on the property specified in the declaration.",
+        "citations": [
+          "Page 22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What law governs foreign exchange for National Housing Bank?",
+        "answer": "The Foreign Exchange Management Act, 1999.",
+        "citations": [
+          "Page 22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "Can the Central Government guarantee loans taken by National Housing Bank?",
+        "answer": "Yes, the Central Government may guarantee any loan taken by the National Housing Bank under sub-section (1) or any part thereof as to the repayment of principal and the payment of interest and other incidental charges.",
+        "citations": [
+          "Page 22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What is the eligibility for accepting deposits by National Housing Bank?",
+        "answer": "National Housing Bank can accept deposits repayable after the expiry of a specified period on terms generally or specially approved by the Reserve Bank, except deposits accepted under the scheme formulated by the Bank in pursuance of clause (hh) of section 14.",
+        "citations": [
+          "Page 21",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations related to KYC/AML for National Housing Bank?",
+        "answer": "The document does not provide specific information about KYC/AML obligations for National Housing Bank.",
+        "citations": [
+          "Page 20-22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What are the mortgage-related clauses for National Housing Bank?",
+        "answer": "When any person or institution seeks financial assistance from National Housing Bank on the security of any immovable property, they must execute a written declaration stating the particulars of the immovable property which is proposed to be offered as security. If the National Housing Bank grants any financial assistance, the dues relating to such assistance shall be a charge on the property specified in the declaration.",
+        "citations": [
+          "Page 22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What are the timelines for deposits accepted by National Housing Bank?",
+        "answer": "The document does not provide specific information about the timelines for deposits accepted by National Housing Bank.",
+        "citations": [
+          "Page 21",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for non-compliance with the Act?",
+        "answer": "The document does not provide specific information about penalties for non-compliance with the Act.",
+        "citations": [
+          "Page 20-22",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "Are there any exceptions to the deposit acceptance rules for National Housing Bank?",
+        "answer": "Yes, deposits accepted under the scheme formulated by the Bank in pursuance of clause (hh) of section 14 are not subject to the rules mentioned in clause (c) of section 15.",
+        "citations": [
+          "Page 21",
+          "chunk:10/37"
+        ]
+      },
+      {
+        "question": "What is the National Housing Bank allowed to borrow in foreign currency?",
+        "answer": "The National Housing Bank may borrow foreign currency from any bank or financial institution in India or elsewhere, subject to conditions prescribed in consultation with the Reserve Bank and with the previous approval of the Central Government (Section 16(1))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=22",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "Can the Central Government guarantee loans taken by the National Housing Bank?",
+        "answer": "Yes, the Central Government may guarantee any loan taken by the National Housing Bank under Section 16(2)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=22",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What is the process for offering immovable property as security for financial assistance from the National Housing Bank?",
+        "answer": "A person or institution seeking financial assistance must execute a written declaration stating the particulars of the immovable property offered as security and agreeing that the dues relating to the assistance shall be a charge on such immovable property. The dues relating to such assistance become a charge on the property specified in the declaration (Section 16A(1))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=22",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "Can a declaration made under Section 16A be varied or revoked?",
+        "answer": "Yes, a declaration made under Section 16A may be varied or revoked at any time by the person or institution with the prior approval of the National Housing Bank (Section 16A(3))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=22",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What happens to sums received by a borrowing institution in repayment or realization of loans and advances financed or refinanced by the National Housing Bank?",
+        "answer": "Such sums shall be deemed to have been received by the borrowing institution in trust for the National Housing Bank, and shall accordingly be paid by such institution to the National Housing Bank (Section 16B(1))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=23",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank to transfer rights and interests?",
+        "answer": "The rights and interest of the National Housing Bank in relation to any loan or advance made, or any amount recoverable by it, may be transferred by the execution or issue of any instrument or by the transfer of any instrument by endorsement (Section 17)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=24",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank to acquire rights and interests?",
+        "answer": "The National Housing Bank shall have the right to acquire, by transfer or assignment, the rights and interests of any institution in relation to any loan or advance made, or any amount recoverable by such institution (Section 18)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=24",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What instruments are exempt from compulsory registration under the Registration Act, 1908?",
+        "answer": "Instruments in the form of debt obligations or trust certificate of beneficial interest or other instruments issued by the National Housing Bank to securitize the loans granted by housing finance institutions and scheduled banks, not creating, declaring, assigning, limiting or extinguishing any right, title or interest, to or in immovable property except in so far as it entitles the holder to an undivided interest afforded by a registered instrument (Section 18A)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=24",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What is the process for recovering dues under an agreement with the National Housing Bank?",
+        "answer": "The National Housing Bank may make an application to the State Government for the recovery of the amount due to it, and if the State Government is satisfied that any amount is due, it may issue a certificate for the amount to the Collector and the Collector shall proceed to recover that amount in the same manner as arrears of land revenue (Section 18B)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=24",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What conditions can the National Housing Bank impose when entering into a transaction with a borrowing institution?",
+        "answer": "The National Housing Bank may impose such conditions as it may think necessary or expedient for protecting the interests of the National Housing Bank (Section 19)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=24",
+          "chunk:11/37"
+        ]
+      },
+      {
+        "question": "What instruments do not require compulsory registration as per section 18A?",
+        "answer": "Instruments in the form of debt obligations or trust certificates of beneficial interest, issued by the National Housing Bank to securitize loans granted by housing finance institutions and scheduled banks, that do not create, declare, assign, limit or extinguish any right, title or interest to or in immovable property except in so far as it entitles the holder to an undivided interest afforded by a registered instrument.",
+        "citations": [
+          "Page 24, Line 18",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank regarding recovery of dues?",
+        "answer": "The National Housing Bank may make an application to the State Government for the recovery of any amount due to it in respect of securitization of loans of housing finance institutions and scheduled banks. If the State Government is satisfied that any amount is due, it may issue a certificate for the amount to the Collector and the Collector shall proceed to recover that amount in the same manner as arrears of land revenue.",
+        "citations": [
+          "Page 24, Line 18B",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What conditions can the National Housing Bank impose while entering into any transaction with a borrowing institution?",
+        "answer": "The National Housing Bank may impose such conditions as it may think necessary or expedient for protecting its interests.",
+        "citations": [
+          "Page 24, Line 19",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What access does the National Housing Bank have to records of institutions seeking credit facilities?",
+        "answer": "The National Housing Bank shall have free access to all such records of any institution which seeks to avail of any credit facilities from the National Housing Bank and to all such records of any person who seeks to avail of any credit facilities from such institution, the perusal of which may appear to the National Housing Bank to be necessary in connection with the providing of finance or other assistance to such institution or the refinancing of any loan or advance made to such person by that institution.",
+        "citations": [
+          "Page 25, Line 16",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What is the validity of a loan or advance made by the National Housing Bank?",
+        "answer": "The validity of any loan or advance made by the National Housing Bank in pursuance of the provisions of this Act shall not be called in question merely on the ground of non-compliance with the requirements of any other law or of any resolution, contract, or any instrument regulating the constitution of the borrowing institution.",
+        "citations": [
+          "Page 26, Line 17",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What is prohibited for the National Housing Bank regarding loans or advances on the security of its own bonds or debentures?",
+        "answer": "The National Housing Bank shall not make any loan or advance on the security of its own bonds or debentures.",
+        "citations": [
+          "Page 26, Line 23",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to inspect institutions?",
+        "answer": "The National Housing Bank may cause an inspection to be made by one or more of its officers of any institution to which it has made any loan or advance or granted any other financial assistance, and its books, accounts, and other documents. It shall be the duty of every officer, employee, or other person in charge of the whole or part of the affairs of the institution to produce to any officer making an inspection all such books, accounts, and other documents in his custody or power and to furnish within such time as the said officer may specify, any statements, information relating to the affairs of the institution as the said officer may require.",
+        "citations": [
+          "Page 26, Line 24",
+          "chunk:12/37"
+        ]
+      },
+      {
+        "question": "What is the validity of loans or advances made by the National Housing Bank?",
+        "answer": "The validity of any loan or advance made by the National Housing Bank in pursuance of the provisions of this Act shall not be called in question merely on the ground of non-compliance with other laws (Section 22).",
+        "citations": [
+          "Page 26",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "Can the National Housing Bank make loans or advances against its own bonds or debentures?",
+        "answer": "No, the National Housing Bank shall not make any loan or advance on the security of its own bonds or debentures (Section 23).",
+        "citations": [
+          "Page 26",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank to collect credit information?",
+        "answer": "The National Housing Bank may direct any institution to submit credit information in such form and within such time as specified by the National Housing Bank. Every institution shall comply with any directions issued under this section, notwithstanding anything to the contrary contained in any law or agreement (Section 25).",
+        "citations": [
+          "Page 27",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank to publish information?",
+        "answer": "The National Housing Bank may publish any credit information or other information obtained under this Act, in such consolidated form or any other form as it thinks fit, if it considers it in the public interest so to do (Section 26).",
+        "citations": [
+          "Page 27",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What advisory services can the National Housing Bank provide?",
+        "answer": "The National Housing Bank may provide advisory services to the Central and State Governments, local authorities, and other agencies connected with housing in respect of formulation of overall policies aimed at promoting the growth of housing and housing finance institutions, and legislation relating to matters having a bearing on shelter, housing, and human settlement (Section 27).",
+        "citations": [
+          "Page 28",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What is the definition of 'deposit' in Chapter V?",
+        "answer": "In this Chapter, the term 'deposit' shall have the meaning assigned to it in section 45I of the Reserve Bank of India Act, 1934 (Section 28).",
+        "citations": [
+          "Page 28",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What are the provisions of this Chapter not applicable to?",
+        "answer": "The provisions of this Chapter shall not apply to deposits accepted by a housing finance institution which is a firm or an unincorporated association of individuals (Section 29).",
+        "citations": [
+          "Page 28",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What are the requirements for a company to commence or carry on the business of a housing finance institution?",
+        "answer": "A housing finance institution which is a company shall obtain a certificate of registration issued under this Chapter and have the net owned fund of at least 25 lakh rupees (Section 29A).",
+        "citations": [
+          "Page 28",
+          "chunk:13/37"
+        ]
+      },
+      {
+        "question": "What is the purpose of Chapter V in this regulatory document?",
+        "answer": "Chapter V focuses on provisions relating to housing finance institutions.",
+        "citations": [
+          "Page 28",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What is considered a 'deposit' in this Chapter?",
+        "answer": "A 'deposit' has the meaning assigned in section 45I of the Reserve Bank of India Act, 1934.",
+        "citations": [
+          "Page 28",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "Are there exceptions for certain types of housing finance institutions regarding the application of this Chapter?",
+        "answer": "Yes, provisions do not apply to deposits accepted by a housing finance institution which is a firm or an unincorporated association of individuals (Page 28).",
+        "citations": [
+          "Page 28",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What is the requirement for a company to commence or carry on the business of housing finance as its principal business?",
+        "answer": "A company must obtain a certificate of registration issued under this Chapter and have a net owned fund of at least 25 lakh rupees (Page 29).",
+        "citations": [
+          "Page 29",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What is the minimum net owned fund for housing finance institutions which are companies?",
+        "answer": "The minimum net owned fund for housing finance institutions which are companies is 25 lakh rupees, but it can be higher as specified by the Reserve Bank (Page 29).",
+        "citations": [
+          "Page 29",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What conditions must be fulfilled for a housing finance institution to receive a certificate of registration?",
+        "answer": "The Reserve Bank may require the fulfillment of conditions such as financial stability, management character, public interest, and earning prospects (Page 30).",
+        "citations": [
+          "Page 30",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What happens if a housing finance institution fails to comply with any condition subject to which the certificate of registration was issued?",
+        "answer": "The Reserve Bank may cancel the certificate of registration (Page 30).",
+        "citations": [
+          "Page 30",
+          "chunk:14/37"
+        ]
+      },
+      {
+        "question": "What conditions must a housing finance institution fulfill to be granted a certificate of registration?",
+        "answer": "The housing finance institution must meet the following conditions: (a) The character of management or proposed management should not be prejudicial to public interest or depositors. (b) Adequate capital structure and earning prospects. (c) Grant of certificate of registration should serve public interest and not be prejudicial to the operation and growth of the housing finance sector. (d) Any other condition necessary to ensure that the business in India by a housing finance institution shall not be prejudicial to public interest or depositors.",
+        "citations": [
+          "Page 30, lines 1-7",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have regarding the cancellation of a certificate of registration?",
+        "answer": "The Reserve Bank may cancel a certificate of registration if the housing finance institution: (i) ceases to carry on the business of a housing finance institution in India; (ii) has failed to comply with any condition subject to which the certificate of registration was issued; (iii) fails to fulfill any conditions referred to in clauses (a) to (g) of sub-section (4); or (iv) fails to comply with any direction, maintain accounts, submit books for inspection, or has been prohibited from accepting deposits by an order made by the National Housing Bank.",
+        "citations": [
+          "Page 30, lines 12-21",
+          "Page 31, lines 1-9",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the process for appealing a rejection of application or cancellation of certificate of registration?",
+        "answer": "A housing finance institution aggrieved by the order or rejection may prefer an appeal to the Central Government within 30 days from the date on which such order of rejection or cancellation is communicated.",
+        "citations": [
+          "Page 32, lines 1-5",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is considered as 'net owned fund' for a housing finance institution?",
+        "answer": "Net owned fund means the aggregate of the paid-up equity capital and free reserves as disclosed in the latest balance sheet, after deducting accumulated balance of loss, deferred revenue expenditure, and other intangible assets. It is further reduced by investments in shares of subsidiaries, companies in the same group, all other housing finance companies, book value of debentures, bonds, outstanding loans and advances made to or deposits with subsidiaries and companies in the same group.",
+        "citations": [
+          "Page 32, lines 10-21",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What are the expressions 'subsidiaries' and 'companies in the same group'?",
+        "answer": "The expressions 'subsidiaries' and 'companies in the same group' have the meanings respectively assigned to them in the Companies Act, 2013.",
+        "citations": [
+          "Page 32, lines 23-25",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the timeline for giving an opportunity to a housing finance institution before cancelling its certificate of registration?",
+        "answer": "Before cancelling a certificate of registration on the ground that the housing finance institution has failed to comply with provisions or conditions, the Reserve Bank shall give an opportunity to such institution on terms specified for taking necessary steps to comply.",
+        "citations": [
+          "Page 31, lines 8-14",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the final decision-making authority in case of an appeal against rejection or cancellation of certificate of registration?",
+        "answer": "The final decision in such cases lies with the Central Government where an appeal has been preferred to it, or of the Reserve Bank where no appeal has been preferred.",
+        "citations": [
+          "Page 32, lines 6-8",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the provision for giving a reasonable opportunity of being heard before making any order of rejection of appeal?",
+        "answer": "Before making any order of rejection of appeal, such institution shall be given a reasonable opportunity of being heard.",
+        "citations": [
+          "Page 32, lines 10-11",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the timeline for an appeal against rejection or cancellation of certificate of registration?",
+        "answer": "An appeal must be preferred within a period of 30 days from the date on which such order of rejection or cancellation is communicated.",
+        "citations": [
+          "Page 32, lines 1-5",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What happens if a housing finance institution fails to comply with any direction issued by the Reserve Bank or National Housing Bank?",
+        "answer": "The housing finance institution must comply with any direction issued by the Reserve Bank or National Housing Bank under the provisions of this Chapter. Failure to do so may result in consequences as per the regulatory framework.",
+        "citations": [
+          "Explanation, lines 1-3",
+          "chunk:15/37"
+        ]
+      },
+      {
+        "question": "What is the net owned fund definition for a housing finance institution?",
+        "answer": "The net owned fund means the aggregate of the paid-up equity capital and free reserves as disclosed in the latest balance-sheet of the housing finance institution after deducting therefrom accumulated balance of loss, deferred revenue expenditure, and other intangible assets. It is further reduced by the amounts representing investments of such institution in shares of its subsidiaries, Companies in the same group, all other housing finance companies, and the book value of debentures, bonds, outstanding loans and advances (including hire-purchase and lease finance) made to, and deposits with subsidiaries of such company and companies in the same group, to the extent such amount exceeds ten percent. of (a) above.",
+        "citations": [
+          "Page 32",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "Who has the final decision in an appeal related to a housing finance institution?",
+        "answer": "The Central Government or the Reserve Bank, depending on whether an appeal has been preferred to it or not.",
+        "citations": [
+          "Page 32",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the requirement for hearing before rejection of appeal in a housing finance institution?",
+        "answer": "Such institution shall be given a reasonable opportunity of being heard before any order of rejection of appeal.",
+        "citations": [
+          "Page 32",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the meaning of 'subsidiaries' and 'companies in the same group' for a housing finance institution?",
+        "answer": "The expressions 'subsidiaries' and 'companies in the same group' shall have the meanings respectively assigned to them in the Companies Act, 2013.",
+        "citations": [
+          "Page 32",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the requirement for investment in unencumbered approved securities by a housing finance institution?",
+        "answer": "Every housing finance institution shall invest and continue to invest in India in unencumbered approved securities, valued at a price not exceeding the current market price of such securities, an amount which, at the close of business on any day, shall not be less than five percent. or such higher percentage as the Reserve Bank may specify, of the deposits outstanding at the close of business on the last working day of the second preceding quarter.",
+        "citations": [
+          "Page 33",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the requirement for maintaining term deposits or certificate of deposits by a housing finance institution?",
+        "answer": "Every housing finance institution shall maintain in India in an account with a scheduled bank in term deposits or certificate of deposits (free of charge or lien) or in deposits with the National Housing Bank or by way of subscription to the bonds issued by the National Housing Bank, or partly in such account or in such deposits, an amount which, at the close of business on any day, shall not be less than a specified percentage of the deposits outstanding at the close of business on the last working day of the second preceding quarter.",
+        "citations": [
+          "Page 34",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for failing to maintain the required investment by a housing finance institution?",
+        "answer": "If the amount invested by a housing finance institution at the close of business on any day is less than the rate specified, such housing finance institution shall be liable to pay to the National Housing Bank a penal interest at a rate of three percent. per annum above the bank rate on such amount by which the amount actually maintained or invested falls short of the specified percentage. If the shortfall continues in subsequent quarters, the rate of penal interest shall be five percent. per annum above the bank rate on such shortfall for each subsequent quarter.",
+        "citations": [
+          "Page 34",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "How is the penal interest payable under sub-section (4) enforced?",
+        "answer": "The penal interest payable under sub-section (4) shall be payable within a period of fourteen days from the date on which a notice issued by the National Housing Bank demanding payment of the same is served on the housing finance institution. In the event of a failure to pay the same within such period, it may be levied by a direction of the principal civil court having jurisdiction in the area where an office of the defaulting housing finance institution is situated. When the court makes a direction, it shall issue a certificate specifying the sum payable by the housing finance institution, and every such certificate shall be enforceable in the manner as if it were a decree made by the court in a suit.",
+        "citations": [
+          "Page 34",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What happens if the National Housing Bank is satisfied that the defaulting housing finance institution had sufficient funds?",
+        "answer": "Notwithstanding anything contained in this section, if the National Housing Bank is satisfied that the defaulting housing finance institution had sufficient funds to maintain the required investment, it may waive or reduce the penal interest payable under sub-section (4).",
+        "citations": [
+          "Page 34",
+          "chunk:16/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for a housing finance institution that fails to maintain or invest an amount as specified by the Reserve Bank?",
+        "answer": "If the amount invested by a housing finance institution falls short of the specified percentage, it shall be liable to pay penal interest at a rate of three per cent. per annum above the bank rate on such shortfall. If the shortfall continues in subsequent quarters, the rate of penal interest shall be five per cent. per annum above the bank rate for each subsequent quarter (Section 25(4)).",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=34",
+          "chunk:17/37"
+        ]
+      },
+      {
+        "question": "What is the deadline for paying penal interest demanded by the National Housing Bank?",
+        "answer": "The penal interest payable under Section 25(4) shall be payable within a period of fourteen days from the date on which a notice issued by the National Housing Bank demanding payment of the same is served on the housing finance institution (Section 25(5)(a)).",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=34",
+          "chunk:17/37"
+        ]
+      },
+      {
+        "question": "What is the minimum percentage of net profit that a housing finance institution must transfer to its reserve fund each year?",
+        "answer": "Every housing finance institution shall create a reserve fund and transfer therein a sum not less than twenty per cent. of its net profit every year as disclosed in the profit and loss account (Section 29C(1)).",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=36",
+          "chunk:17/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to regulate or prohibit the issue of prospectus or advertisement soliciting deposits of money?",
+        "answer": "The Reserve Bank may, if it considers necessary in the public interest, by general or special order, regulate or prohibit the issue by any housing finance institution which is a company of any prospectus or advertisement soliciting deposits of money from the public (Section 30).",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=36",
+          "chunk:17/37"
+        ]
+      },
+      {
+        "question": "Who can declare that provisions of sub-section (1) will not be applicable to a housing finance institution for a specified period?",
+        "answer": "The Central Government, on the recommendation of the Reserve Bank and having regard to the adequacy of the paid-up capital and reserves of the housing finance institution which is a company in relation to its deposit liabilities.",
+        "citations": [
+          "Page 36, Section 27",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What conditions must be met before an order can be made to exempt a housing finance institution from provisions of sub-section (1)?",
+        "answer": "The amount in the reserve fund under sub-section (1), together with the amount in the share premium account, must not be less than the paid-up capital of the housing finance institution.",
+        "citations": [
+          "Page 36, Section 27",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to regulate or prohibit the issue of prospectus or advertisement soliciting deposits?",
+        "answer": "The Reserve Bank may regulate or prohibit the issue by any housing finance institution which is a company of any prospectus or advertisement soliciting deposits of money from the public and specify the conditions subject to which any such prospectus or advertisement, if not prohibited, may be issued.",
+        "citations": [
+          "Page 36, Section 30",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to determine policy and issue directions to housing finance institutions?",
+        "answer": "The Reserve Bank can determine the policy and give directions to all or any of the housing finance institution which is a company relating to income recognition, accounting standards, making of proper provision for bad and doubtful debts, capital adequacy based on risk weights for assets and credit conversion factors for off balance-sheet items and also relating to deployment of funds by a housing finance institution which is a company or a group of such housing finance institutions or housing finance institutions which are companies generally.",
+        "citations": [
+          "Page 37, Section 30A",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to give directions to housing finance institutions regarding advances or other financial accommodation or investment in shares and other securities?",
+        "answer": "The Reserve Bank may give directions to housing finance institutions generally or to a group of such housing finance institutions or to any housing finance institution which is a company as to the purpose for which advances or other fund-based or non-fund-based accommodation may not be made and the maximum amount of advances or other financial accommodation or investment in shares and other securities which, having regard to the paid-up capital, reserves and deposits of the housing finance institution and other relevant considerations, may be made by that housing finance institution to any person or a company or to a group of companies.",
+        "citations": [
+          "Page 37, Section 30A",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to issue directions to housing finance institutions accepting deposits referred to in section 31?",
+        "answer": "The Reserve Bank may issue directions to housing finance institutions which are companies accepting deposits referred to in section 31, either generally or to any group of such housing finance institutions accepting deposits, and in particular, in respect of any matters relating to, or connected with, the receipt of deposits, including credit rating of the housing finance institution which is a company accepting deposits, the rates of interest payable on such deposits, and the periods for which deposits may be received.",
+        "citations": [
+          "Page 37, Section 31",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to collect information from housing finance institutions as to deposits?",
+        "answer": "The National Housing Bank may direct that every housing finance institution accepting deposits shall furnish to the National Housing Bank and the Reserve Bank in such form, at such intervals and within such time, such statements, information or particulars relating to or connected with deposits received by such housing finance institution, as may be specified by the National Housing Bank by general or special order.",
+        "citations": [
+          "Page 38, Section 31",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "What happens if a housing finance institution fails to comply with any direction issued under sub-section (3)?",
+        "answer": "If any housing finance institution which is a company accepting deposits fails to comply with any direction issued under sub-section (3), the Reserve Bank may, by order, prohibit the acceptance of deposits by that housing finance institution.",
+        "citations": [
+          "Page 38, Section 31",
+          "chunk:18/37"
+        ]
+      },
+      {
+        "question": "Who must furnish statements, information or particulars relating to deposits received by housing finance institutions?",
+        "answer": "Housing finance institutions which are companies must furnish statements, information or particulars to the National Housing Bank and the Reserve Bank as specified.",
+        "citations": [
+          "Page 38, Section 29",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What details may be included in the statements, information or particulars furnished by housing finance institutions?",
+        "answer": "The details may relate to the amount of deposits, purposes and periods for which, rates of interest, and other terms and conditions on which deposits are received.",
+        "citations": [
+          "Page 38, Section 29(2)",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What is the National Housing Bank's power regarding directions to housing finance institutions?",
+        "answer": "The National Housing Bank may give directions to housing finance institutions regarding matters relating to or connected with the receipt of deposits, including credit rating and rates of interest.",
+        "citations": [
+          "Page 38, Section 29(3)",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What happens if a housing finance institution fails to comply with a direction given by the National Housing Bank?",
+        "answer": "The National Housing Bank may prohibit the acceptance of deposits by that housing finance institution.",
+        "citations": [
+          "Page 38, Section 29(4)",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What must a housing finance institution do if required by the National Housing Bank?",
+        "answer": "A housing finance institution must cause to be sent a copy of its annual balance-sheet and profit and loss account or other annual accounts to every person from whom it holds deposits higher than a specified sum.",
+        "citations": [
+          "Page 38, Section 29(5)",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What is the duty of housing finance institutions under Chapter of this Act?",
+        "answer": "Every housing finance institution which is a company shall furnish the statements, information or particulars called for by the National Housing Bank or the Reserve Bank and comply with any direction given to it under the provisions of this Chapter.",
+        "citations": [
+          "Page 39, Section 32",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What are the powers and duties of auditors of housing finance institutions?",
+        "answer": "The auditor of every housing finance institution shall enquire whether or not the institution has furnished statements, information or particulars relating to deposits received by it as required under this Chapter. If not, they must make a report to the National Housing Bank and the Reserve Bank.",
+        "citations": [
+          "Page 39, Section 33",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have regarding special audits of housing finance institutions?",
+        "answer": "The Reserve Bank may direct the National Housing Bank to conduct a special audit of the accounts of a housing finance institution in relation to any transaction or class of transactions for a specified period.",
+        "citations": [
+          "Page 40, Section 33(3)",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "What powers does the Reserve Bank have to prohibit acceptance of deposits and alienation of assets?",
+        "answer": "If a housing finance institution violates any provisions or fails to comply with any direction or order given by the National Housing Bank, the Reserve Bank may direct the institution not to accept any deposit or alienate its assets.",
+        "citations": [
+          "Page 40, Section 33A",
+          "chunk:19/37"
+        ]
+      },
+      {
+        "question": "Who is responsible for conducting a special audit of a housing finance institution's accounts?",
+        "answer": "The National Housing Bank may direct an auditor or auditors to conduct such special audit (Section 31(3))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=40",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "Who receives the report of a special audit conducted on a housing finance institution?",
+        "answer": "The report is submitted to the National Housing Bank (Section 31(4))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=40",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "Who determines the remuneration of auditors for a special audit?",
+        "answer": "The National Housing Bank fixes the remuneration (Section 31(4))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=40",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "What is the power of the Reserve Bank to prohibit acceptance of deposit and alienation of assets?",
+        "answer": "The Reserve Bank can prohibit a housing finance institution from accepting any deposit or dealing with its property and assets (Section 33A)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=41",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "Who can file a winding up petition for a housing finance institution?",
+        "answer": "The National Housing Bank can file an application for winding up of a housing finance institution under the Companies Act, 2013 (Section 33B)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=42",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "Who is responsible for causing an inspection of a housing finance institution?",
+        "answer": "The National Housing Bank may cause an inspection to be made by one or more of its officers or employees or other persons (Section 34(1))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=42",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "What is the duty of directors and officers in a housing finance institution regarding inspection?",
+        "answer": "They must produce books, accounts, and other documents to the inspecting authority and furnish statements and information (Section 34(2))",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=42",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "What is the power of the Reserve Bank to take action against auditors?",
+        "answer": "The Reserve Bank may remove or debar an auditor from exercising duties as auditor of any Reserve Bank regulated entities for a maximum period of three years (Section 33C)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=43",
+          "chunk:20/37"
+        ]
+      },
+      {
+        "question": "Who receives a copy of every application made by the National Housing Bank under section 33(1)?",
+        "answer": "The Registrar of Companies and the Reserve Bank.",
+        "citations": [
+          "Page 42, Section 33(3)",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What happens if an auditor fails to comply with a direction given or order made by the National Housing Bank or the Reserve Bank under section 33?",
+        "answer": "The Reserve Bank may remove or debar the auditor from exercising the duties as auditor of any of the Reserve Bank regulated entities for a maximum period of three years.",
+        "citations": [
+          "Page 42, Section 33C",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What powers does the National Housing Bank have to inspect housing finance institutions?",
+        "answer": "The National Housing Bank may cause an inspection to be made of any housing finance institution for the purpose of verifying the correctness or completeness of any statement, information or particulars furnished to the National Housing Bank or for the purpose of obtaining any information or particulars which the housing finance institution has failed to furnish on being called upon to do so.",
+        "citations": [
+          "Page 42, Section 34",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What is the duty of every director or member of any committee or other body or any person for the time being vested with the management of a housing finance institution under section 34?",
+        "answer": "It shall be the duty of every director or member of any committee or body or any person for the time being vested with the management of the whole or part of the affairs of every housing finance institution to produce to the inspecting authority all such books, accounts and other documents in his custody or power and to furnish that authority with any statement and information relating to the business of the institution as that authority may require of him, within such time as may be specified by that authority.",
+        "citations": [
+          "Page 43, Section 34(2)",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What happens if a person solicits deposits on behalf of a housing finance institution in an unauthorized manner?",
+        "answer": "No person shall solicit on behalf of any housing finance institution either by publishing or causing to be published any prospectus or advertisement or in any other manner deposits of money from the public unless he has been authorised in writing by the said housing finance institution to do so and the prospectus or advertisement complies with any order made by the Reserve Bank under section 30 and with any other provision of law for the time being in force applicable to the publication of such prospectus or advertisement.",
+        "citations": [
+          "Page 43, Section 35",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What information relating to a housing finance institution is considered confidential and shall not be disclosed?",
+        "answer": "Any information relating to a housing finance institution which is contained in any statement or return submitted by such institution under the provisions of this Chapter or obtained through audit or inspection or otherwise by the National Housing Bank or the Reserve Bank, as the case may be, shall be treated as confidential and shall not, except otherwise provided in this section, be disclosed.",
+        "citations": [
+          "Page 44, Section 35A(1)",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "Under what circumstances can information relating to a housing finance institution be disclosed?",
+        "answer": "The disclosure by any housing finance institution or by the National Housing Bank or the Reserve Bank of any such information can be made with the previous permission of the National Housing Bank or the Reserve Bank, as the case may be, or if it considers necessary in the public interest so to do, or if published by the National Housing Bank or the Reserve Bank in such consolidated form as it may think fit without disclosing the name of any housing finance institution or its borrowers.",
+        "citations": [
+          "Page 44, Section 35A(2)",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What happens if the National Housing Bank initiates a winding up proceeding on an application made under section 33?",
+        "answer": "All the provisions of the Companies Act, 2013 relating to winding up of a company shall apply to a winding up proceeding initiated on the application made by the National Housing Bank under this provision.",
+        "citations": [
+          "Page 42, Section 33(4)",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What power does the Reserve Bank have against an auditor who fails to comply with a direction given or order made by the National Housing Bank or the Reserve Bank under section 33C?",
+        "answer": "The Reserve Bank has the power to remove or debar the auditor from exercising the duties as auditor of any of the Reserve Bank regulated entities for a maximum period of three years.",
+        "citations": [
+          "Page 42, Section 33C",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What is the purpose of the inspection powers granted to the National Housing Bank under section 34?",
+        "answer": "The purpose of the inspection powers granted to the National Housing Bank under section 34 is to verify the correctness or completeness of any statement, information or particulars furnished to the National Housing Bank or for the purpose of obtaining any information or particulars which the housing finance institution has failed to furnish on being called upon to do so.",
+        "citations": [
+          "Page 42, Section 34",
+          "chunk:21/37"
+        ]
+      },
+      {
+        "question": "What is the confidentiality obligation for information obtained by a housing finance institution?",
+        "answer": "Information obtained by a housing finance institution under this Chapter shall be treated as confidential and shall not be disclosed, except otherwise provided in this section.",
+        "citations": [
+          "Page 44",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "What are the exceptions to the confidentiality obligation for information obtained by a housing finance institution?",
+        "answer": "The exceptions include: (a) disclosure with previous permission of National Housing Bank or Reserve Bank, (b) publication by National Housing Bank or Reserve Bank in public interest, (c) disclosure among housing finance institutions or as permitted or required under any other law.",
+        "citations": [
+          "Page 44",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "Who can disclose information to another housing finance institution or in accordance with the practice and usage customary amongst such institutions?",
+        "answer": "Any such information received by a housing finance institution under this clause shall not be published except in accordance with the practice and usage customary amongst institutions or as permitted or required under any other law.",
+        "citations": [
+          "Page 45",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "Under what circumstances can National Housing Bank or Reserve Bank disclose information to an authority constituted under any law?",
+        "answer": "If it is satisfied that, in the public interest or in the interest of the depositors or the housing finance institution or to prevent the affairs of any housing finance institution being conducted in a manner detrimental to the interest of the depositors, it is expedient so to do.",
+        "citations": [
+          "Page 45",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "Can a court or tribunal compel National Housing Bank or Reserve Bank to produce any statement or other material obtained under this Chapter?",
+        "answer": "No, no court or tribunal or other authority shall compel National Housing Bank or Reserve Bank to produce or give inspection of any statement or other material obtained by them under any provision of this Chapter.",
+        "citations": [
+          "Page 46",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "What is the power of Reserve Bank to exempt any housing finance institution from the provisions of this Chapter?",
+        "answer": "The Reserve Bank, on being satisfied that it is necessary so to do, may declare by notification that all or any of the provisions of this Chapter shall not apply to a housing finance institution which is a company or a group of housing finance institutions either generally or for such period as may be specified, subject to such conditions, limitations or restrictions as it may think fit to impose.",
+        "citations": [
+          "Page 46",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "What are the provisions of this Chapter overriding other laws?",
+        "answer": "The provisions of this Chapter shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force or any instrument having effect by virtue of any such law.",
+        "citations": [
+          "Page 46",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "What is the power to order repayment of deposit in case a housing finance institution fails to do so?",
+        "answer": "An authorised officer may direct, by order, such housing finance institution to repay any deposit or part thereof in accordance with the terms and conditions of such deposit if it has failed to do so.",
+        "citations": [
+          "Page 46",
+          "chunk:22/37"
+        ]
+      },
+      {
+        "question": "Who can exempt housing finance institutions from provisions of Chapter under this Act?",
+        "answer": "The Reserve Bank can exempt any housing finance institution which is a company or a group of housing finance institutions either generally or for a specified period, subject to certain conditions, limitations, or restrictions.",
+        "citations": [
+          "Page 46, Section 35B",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "What happens if the provisions of this Chapter are inconsistent with any other law?",
+        "answer": "The provisions of this Chapter shall have effect notwithstanding anything inconsistent therewith contained in any other law.",
+        "citations": [
+          "Page 46, Section 36",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "What is the obligation for repayment of deposits accepted by a housing finance institution?",
+        "answer": "Every deposit accepted by a housing finance institution which is a company unless renewed, shall be repaid in accordance with the terms and conditions of such deposit.",
+        "citations": [
+          "Page 46, Section 36A",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "Who can direct a housing finance institution to make repayment of deposits?",
+        "answer": "An authorized officer may direct a housing finance institution to make repayment of deposits if necessary to safeguard the interests of the housing finance institution, the depositors or in the public interest.",
+        "citations": [
+          "Page 46, Section 36A",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "What is the process for nomination by depositors in a housing finance institution?",
+        "answer": "Depositors can nominate one person to whom the deposit may be returned in case of death. The nominee becomes entitled to all rights of the deceased depositor, unless the nomination is varied or cancelled.",
+        "citations": [
+          "Page 47, Section 36B",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "What are the definitions used in Chapter VA of this Act?",
+        "answer": "Definitions for terms like Appellate Tribunal, approved institution, assistance, borrower, dues, and recovery officer are provided.",
+        "citations": [
+          "Page 48, Section 36C",
+          "chunk:23/37"
+        ]
+      },
+      {
+        "question": "What is the definition of 'approved institution' in this Chapter?",
+        "answer": "'Approved institution' means a housing finance institution which has been granted a certificate of registration under sub-section (5) of section 29A, a scheduled bank, National Housing Bank acting as trustee or otherwise in a transaction of securitisation of housing mortgages undertaken by the National Housing Bank, and such other institutions as the Central Government may, on the recommendation of the National Housing Bank, by notification, specify.",
+        "citations": [
+          "Page 49, Section 36C(b)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is 'assistance' in this context?",
+        "answer": "'Assistance' means any direct or indirect financial assistance granted, by an approved institution during the course of any housing finance activity undertaken by it.",
+        "citations": [
+          "Page 49, Section 36C(c)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "Who is considered a 'borrower'?",
+        "answer": "'Borrower' means any person to whom any assistance has been given by an approved institution for the purposes of purchase, construction, repairs, extension or renovation of a residential house.",
+        "citations": [
+          "Page 49, Section 36C(d)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What are 'dues' in this context?",
+        "answer": "'Dues' means any liability which is claimed as due from any person by an approved institution and includes interest, costs, charges and other amount payable in relation thereto.",
+        "citations": [
+          "Page 49, Section 36C(e)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What powers does a recovery officer have?",
+        "answer": "A recovery officer can serve a written notice of demand, pass interim or final orders, allow set-off or counter-claims, make interim orders against the borrower to debar him from transferring, alienating or disposing of any property, and take possession of and transfer by way of sale, lease or otherwise any property pledged, mortgaged, hypothecated or assigned to the approved institution as security for any assistance in respect of which default has been made.",
+        "citations": [
+          "Page 49-50, Sections 36E-G",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the timeline for disposing of an application made to the recovery officer?",
+        "answer": "The application made to the recovery officer under section 36E shall be dealt with by him as expeditiously as possible and endeavour shall be made by him to dispose of the application finally within six months from the date of receipt of the application.",
+        "citations": [
+          "Page 50, Section 36F(6)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for a borrower who refuses or fails to comply with an order within the specified time?",
+        "answer": "Where the borrower refuses or fails to comply with the order within the time specified, the recovery officer may take possession of any property pledged, mortgaged, hypothecated or assigned to the approved institution as security for any assistance in respect of which default has been made and transfer by way of sale, lease or otherwise such property.",
+        "citations": [
+          "Page 50, Section 36G(1)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the role of the Central Government in relation to recovery officers?",
+        "answer": "The Central Government may, in consultation with the National Housing Bank, appoint recovery officers and specify their local limits. The Central Government can also make rules specifying the qualifications for recovery officers.",
+        "citations": [
+          "Page 49, Section 36D",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the role of the National Housing Bank in relation to recovery officers?",
+        "answer": "The National Housing Bank can make recommendations to the Central Government regarding the institutions that should be specified as 'approved institutions' and can act as trustee or otherwise in a transaction of securitisation of housing mortgages.",
+        "citations": [
+          "Page 49, Section 36C(b)(iii)",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the role of the Appellate Tribunal established under section 36-I?",
+        "answer": "The Appellate Tribunal established under section 36-I can hear appeals against any decision or order of a recovery officer.",
+        "citations": [
+          "Page 48, Section 36-I",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the role of the court of competent jurisdiction in this context?",
+        "answer": "If a decree, order, certificate or other authority from a court of competent jurisdiction relating to such deposit is produced before a housing finance institution, the housing finance institution shall take due note of such decree, order, certificate or other authority.",
+        "citations": [
+          "Page 48",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "Are there any mortgage-related clauses in this document?",
+        "answer": "Yes, the document includes provisions related to properties pledged, mortgaged, hypothecated or assigned as security for any assistance in respect of which default has been made.",
+        "citations": [
+          "Page 49-50, Sections 36E-G",
+          "chunk:24/37"
+        ]
+      },
+      {
+        "question": "What is the time limit for the recovery officer to dispose of an application under section 36E?",
+        "answer": "The recovery officer shall endeavor to dispose of the application finally within six months from the date of receipt of the application.",
+        "citations": [
+          "Page 50, Line 47",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What powers does the recovery officer have if the borrower refuses or fails to comply with an order?",
+        "answer": "The recovery officer may take possession of any property pledged, mortgaged, hypothecated or assigned to the approved institution as security for any assistance in respect of which default has been made and transfer by way of sale, lease or otherwise such property.",
+        "citations": [
+          "Page 50, Line 42",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What happens if the dues of the approved institution, together with all costs, charges and expenses incurred by the recovery officer, are tendered to the approved institution or to the recovery officer at any time before the date fixed for sale or transfer?",
+        "answer": "The property shall not be sold or transferred, and no further steps shall be taken for transfer or sale of that property.",
+        "citations": [
+          "Page 51, Line 40",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "Who can assist the recovery officer in taking possession of property?",
+        "answer": "The Chief Metropolitan Magistrate or the District Magistrate within whose jurisdiction any such property or other documents relating thereto may be situated or found.",
+        "citations": [
+          "Page 51, Line 39",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What is the composition of an Appellate Tribunal?",
+        "answer": "An Appellate Tribunal shall consist of one person only (hereinafter referred to as the Presiding Officer of the Appellate Tribunal).",
+        "citations": [
+          "Page 52, Line 31",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What are the qualifications for appointment as the Presiding Officer of an Appellate Tribunal?",
+        "answer": "A person shall not be qualified for appointment as the Presiding Officer of an Appellate Tribunal unless he is, or has been, or is qualified to be a District Judge; or has been a Member of the Indian Legal Service and has held a post in Grade II of that Service for at least three years.",
+        "citations": [
+          "Page 52, Line 34",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What is the term of office for the Presiding Officer of an Appellate Tribunal?",
+        "answer": "The Presiding Officer of an Appellate Tribunal shall hold office for a term of five years from the date on which he enters upon his office or until he attains the age of sixty-five years, whichever is earlier.",
+        "citations": [
+          "Page 52, Line 36",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What powers does the Central Government have regarding the establishment and jurisdiction of Appellate Tribunals?",
+        "answer": "The Central Government shall, by notification, establish one or more Appellate Tribunals, to be known as the Housing Finance Institutions Debt Recovery Appellate Tribunals, to exercise the jurisdiction, powers and authority conferred on such Tribunal by or under this Act. The Central Government shall also specify in the notification referred to in sub-section (1), the areas in relation to which the Appellate Tribunal may exercise jurisdiction.",
+        "citations": [
+          "Page 52, Line 30",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What powers does the recovery officer have to debar a borrower from transferring, alienating or otherwise dealing with property?",
+        "answer": "The recovery officer may make an interim order (whether by way of injunction or stay or attachment) against the borrower to debar him from transferring, alienating or otherwise dealing with or disposing of, any property which is pledged, mortgaged, hypothecated or assigned to the approved institution as security for the dues.",
+        "citations": [
+          "Page 50, Line 36",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "What happens to the costs, charges, and expenses incurred by the recovery officer?",
+        "answer": "Any costs, charges, expenses which in the opinion of the recovery officer have been properly incurred by him as incidental thereto, shall be recoverable from the borrower and the money which is received by it shall, in the absence of any contract to the contrary, be held by it in trust to be applied firstly, in payment of such costs, charges and expenses and secondly, in discharge of debt, due to the approved institution, and the residue of the money so received shall be paid to the person entitled thereto.",
+        "citations": [
+          "Page 51, Line 38",
+          "chunk:25/37"
+        ]
+      },
+      {
+        "question": "Who appoints the Presiding Officer of an Appellate Tribunal?",
+        "answer": "The Central Government.",
+        "citations": [
+          "36J",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "How long does the Presiding Officer of an Appellate Tribunal serve?",
+        "answer": "The Presiding Officer serves for a term of five years or until they reach the age of 65, whichever is earlier.",
+        "citations": [
+          "36L",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "Who provides staff to the Appellate Tribunal?",
+        "answer": "The Central Government.",
+        "citations": [
+          "36M",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "What are the salaries and allowances of the Presiding Officer of an Appellate Tribunal?",
+        "answer": "The salary and allowances are specified by rules made under this Act.",
+        "citations": [
+          "36N",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "How is a vacancy in the office of the Presiding Officer filled?",
+        "answer": "Another person is appointed to fill the vacancy in accordance with the provisions of this Act.",
+        "citations": [
+          "36O",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "Can the Presiding Officer resign before their term ends?",
+        "answer": "The Presiding Officer may resign, but they must continue to hold office for at least three months after giving notice unless permitted to relinquish sooner.",
+        "citations": [
+          "36P",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "How can the Presiding Officer be removed from office?",
+        "answer": "The Presiding Officer can only be removed by an order made by the Central Government on the ground of proved misbehaviour or incapacity after an enquiry made by a Judge of a High Court.",
+        "citations": [
+          "36P",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "What jurisdiction does an Appellate Tribunal have?",
+        "answer": "An Appellate Tribunal has the jurisdiction to entertain appeals against any order made or deemed to have been made by the recovery officer under this Act.",
+        "citations": [
+          "36R",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "Who can file an appeal to the Appellate Tribunal?",
+        "answer": "Any person aggrieved by an order made or deemed to have been made by the recovery officer under this Chapter can file an appeal.",
+        "citations": [
+          "36S",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "What is the time limit for filing an appeal to the Appellate Tribunal?",
+        "answer": "The appeal must be filed within 45 days from the date of receiving a copy of the order, but the Appellate Tribunal may entertain an appeal after the expiry of this period if there is sufficient cause.",
+        "citations": [
+          "36S",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "What percentage of the amount due from a borrower must be deposited with the Appellate Tribunal to entertain an appeal?",
+        "answer": "75% of the amount due from the borrower as determined by the recovery officer.",
+        "citations": [
+          "36T",
+          "chunk:26/37"
+        ]
+      },
+      {
+        "question": "What is the jurisdiction, powers, and authority of the Appellate Tribunal?",
+        "answer": "An Appellate Tribunal shall exercise the jurisdiction, powers, and authority to entertain appeals against any order made or deemed to have been made by the recovery officer under this Act.",
+        "citations": [
+          "36R",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "Who can file an appeal against an order made by the recovery officer?",
+        "answer": "Any person aggrieved by an order made or deemed to have been made by the recovery officer under this Chapter may prefer an appeal to an Appellate Tribunal having jurisdiction in the matter.",
+        "citations": [
+          "36S",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the time limit for filing an appeal?",
+        "answer": "Every appeal should be filed within a period of forty-five days from the date on which a copy of the order made or deemed to have been made by the recovery officer is received by him.",
+        "citations": [
+          "36S",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What happens if an appeal is not filed within the specified time limit?",
+        "answer": "The Appellate Tribunal may entertain an appeal after the expiry of the said period of forty-five days if it is satisfied that there was sufficient cause for not filing it within that period.",
+        "citations": [
+          "36S",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the deposit requirement for an appeal by a borrower?",
+        "answer": "Where an appeal is preferred by a borrower, such appeal shall not be entertained by the Appellate Tribunal unless such person has deposited with the Appellate Tribunal seventy-five per cent. of the amount due from him as determined by the recovery officer.",
+        "citations": [
+          "36T",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "Can the deposit requirement be waived or reduced?",
+        "answer": "The Appellate Tribunal may, for the reasons to be recorded in writing, waive or reduce the amount to be deposited under this section.",
+        "citations": [
+          "36T",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the procedure and powers of the recovery officer and the Appellate Tribunal?",
+        "answer": "The recovery officer and the Appellate Tribunal shall have powers to regulate their own procedure, including the places at which they shall have their sittings. They shall also have powers similar to a civil court under the Code of Civil Procedure, 1908.",
+        "citations": [
+          "36U",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the limitation for an application made to the recovery officer?",
+        "answer": "The provisions of the Limitation Act, 1963 shall, as far as may be, apply to an application made to the recovery officer.",
+        "citations": [
+          "36V",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "Who are deemed to be public servants under this act?",
+        "answer": "The Presiding Officer, other officers and employees of an Appellate Tribunal and the recovery officer shall be deemed to be public servants within the meaning of section 21 of the Indian Penal Code.",
+        "citations": [
+          "36W",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the protection against legal proceedings for actions taken in good faith?",
+        "answer": "No suit, prosecution or other legal proceedings shall lie against the Central Government or against the Presiding Officer of an Appellate Tribunal or against the recovery officer for anything which is in good faith done or intended to be done in pursuance of the provisions of this Act or any rule or regulation or order made thereunder.",
+        "citations": [
+          "36X",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What is the bar on jurisdiction for courts and other authorities?",
+        "answer": "No Court or other authority shall have, or be entitled to exercise, any jurisdiction, powers or authority (except the Supreme Court, and a High Court exercising jurisdiction under articles 226 and 227 of the Constitution) in relation to the matters specified in this Chapter.",
+        "citations": [
+          "36Y",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "What are the general fund and other funds established by the National Housing Bank?",
+        "answer": "The National Housing Bank shall establish a fund called the General Fund, and may create special funds or reserve funds or such other funds as may be prescribed.",
+        "citations": [
+          "37",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "Who is responsible for preparing and maintaining the balance sheet and accounts of the National Housing Bank?",
+        "answer": "The Board shall prepare and maintain the balance sheet and accounts of the National Housing Bank in such form and manner as may be prescribed.",
+        "citations": [
+          "38",
+          "chunk:27/37"
+        ]
+      },
+      {
+        "question": "Who has immunity from legal proceedings for actions taken in good faith under this Act?",
+        "answer": "The Central Government, the Presiding Officer of an Appellate Tribunal, and the recovery officer.",
+        "citations": [
+          "36X",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "Which courts or authorities are barred from exercising jurisdiction in relation to matters specified in Chapter VI?",
+        "answer": "Courts or other authorities except the Supreme Court and a High Court exercising jurisdiction under articles 226 and 227 of the Constitution.",
+        "citations": [
+          "36Y",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "When does the National Housing Bank establish the General Fund?",
+        "answer": "With effect from a date specified by the Central Government.",
+        "citations": [
+          "37(1)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "Who has the authority to create special funds or reserves for the National Housing Bank?",
+        "answer": "The Board, if directed by the Central Government.",
+        "citations": [
+          "37(2)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What is the format and manner of preparing and maintaining the balance sheet and accounts of the National Housing Bank?",
+        "answer": "As prescribed.",
+        "citations": [
+          "38(1)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "When are the books and accounts of the National Housing Bank balanced and closed?",
+        "answer": "On the thirtieth day of June each year.",
+        "citations": [
+          "38(2)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What happens to the surplus funds after 15 years following the establishment of the National Housing Bank?",
+        "answer": "The National Housing Bank shall transfer the balance of surplus to the Central Government.",
+        "citations": [
+          "39",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "Who audits the accounts of the National Housing Bank and for how long are the accounts audited for after establishment?",
+        "answer": "The accounts are audited by auditors appointed by the Reserve Bank for a period of 15 years following the establishment of the National Housing Bank.",
+        "citations": [
+          "40(1)",
+          "39",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What information must be provided to the auditors and what is their duty?",
+        "answer": "The auditors shall be supplied with a copy of the annual balance sheet, examine it together with the accounts and vouchers relating thereto, have access to the books, accounts, vouchers, and other documents of the National Housing Bank, examine any director or officer of the Board or any employee of the National Housing Bank, and make a report on the annual balance sheet and accounts.",
+        "citations": [
+          "40(2)",
+          "40(3)",
+          "40(4)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What happens to the annual accounts of the National Housing Bank after they are closed and balanced?",
+        "answer": "The National Housing Bank shall furnish a copy of its balance sheet, profit and loss account for the year, auditors' report, and a report of the working of the National Housing Bank during that year to the Central Government and the Reserve Bank. The Central Government shall cause the same to be laid before each House of Parliament.",
+        "citations": [
+          "40(5)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "Who may examine and report upon the accounts of the National Housing Bank?",
+        "answer": "The Comptroller and Auditor-General of India.",
+        "citations": [
+          "40(6)",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What information must the National Housing Bank furnish to the Reserve Bank from time to time?",
+        "answer": "Such information and returns as the Reserve Bank may require.",
+        "citations": [
+          "41",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What annual report must the National Housing Bank make to the Central Government and the Reserve Bank?",
+        "answer": "An annual report on the trend and progress of housing in the country, with suggestions for the development of housing.",
+        "citations": [
+          "42",
+          "chunk:28/37"
+        ]
+      },
+      {
+        "question": "What is the obligation of the National Housing Bank regarding annual accounts?",
+        "answer": "The National Housing Bank shall furnish a copy of its balance sheet, profit and loss account, auditors' report, and a report of the working of the National Housing Bank to the Central Government and Reserve Bank within 1[four months] from the close of the relevant year. The Central Government shall cause these documents to be laid before each House of Parliament as soon as possible after they are received (Section 49(5)).",
+        "citations": [
+          "Page 58",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What information must the National Housing Bank provide to the Reserve Bank?",
+        "answer": "The National Housing Bank shall furnish, from time to time, to the Reserve Bank such information and returns as the Reserve Bank may require (Section 41).",
+        "citations": [
+          "Page 58",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the obligation of the National Housing Bank regarding an annual report on housing?",
+        "answer": "The National Housing Bank shall make an annual report to the Central Government and the Reserve Bank on the trend and progress of housing in the country. The Central Government shall cause the same to be laid before each House of Parliament as soon as possible after the report is received (Section 42).",
+        "citations": [
+          "Page 58",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "Who can examine and report upon the accounts of the National Housing Bank?",
+        "answer": "The Central Government may appoint the Comptroller and Auditor-General of India to examine and report upon the accounts of the National Housing Bank, and any expenditure incurred by him in connection with such examination and report shall be payable by the National Housing Bank (Section 49(6)).",
+        "citations": [
+          "Page 58",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank regarding staff appointments?",
+        "answer": "The National Housing Bank may appoint such number of officers and other employees as it considers necessary or desirable for the efficient performance of its functions, determine their terms and conditions of appointment and service, and delegate some of its powers and duties to an officer or officers (Section 43).",
+        "citations": [
+          "Page 59",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the obligation of directors, members, auditors, advisors, officers, and employees regarding fidelity and secrecy?",
+        "answer": "They shall not divulge any information relating to or to the affairs of their constituents except in circumstances where it is necessary or appropriate for them to do so. Before entering upon their duties, they must make a declaration of fidelity and secrecy (Section 44).",
+        "citations": [
+          "Page 60",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What happens if there are defects in the appointment of directors or committees of the National Housing Bank?",
+        "answer": "No act or proceeding of the Board or any committee of the National Housing Bank shall be questioned on the ground of the existence of any vacancy in, or defect in the constitution of, the Board or the committee. No act done by any person acting in good faith as a director or member of a committee shall become invalid merely on the ground that he was qualified to be a director or that there was any other defect in his appointment (Section 45).",
+        "citations": [
+          "Page 60",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the effect of an arrangement entered into by the National Housing Bank with a housing finance institution regarding the appointment of directors?",
+        "answer": "Such provision and any appointment of directors made in pursuance thereof shall be valid and effective (Section 45A).",
+        "citations": [
+          "Page 60",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What law applies to the credit information disclosed by the National Housing Bank?",
+        "answer": "Nothing contained in Section 44 shall apply to the credit information disclosed under the Credit Information Companies (Regulation) Act, 2005 (Section 43(3)).",
+        "citations": [
+          "Page 60",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the power of the National Housing Bank to deputize officers or employees from other institutions?",
+        "answer": "The National Housing Bank may receive or take on deputation any officer or other employee from any institution, including a housing finance institution, for such period and on such terms and conditions as it may think necessary in the interest of the National Housing Bank (Section 43(5)).",
+        "citations": [
+          "Page 59",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the power of the Board to delegate its powers and duties?",
+        "answer": "The Board may, by general or special order, delegate to an officer or officers of the National Housing Bank, subject to such conditions and limitations, if any, as may be specified in the order, such of its powers and duties under this Act as it may deem necessary (Section 43A).",
+        "citations": [
+          "Page 59",
+          "chunk:29/37"
+        ]
+      },
+      {
+        "question": "What is the obligation of the National Housing Bank or Reserve Bank regarding fidelity and secrecy?",
+        "answer": "They shall not divulge any information relating to, or to the affairs of, its constituents except in circumstances where it is necessary or appropriate for them to do so. (Section 44)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=60",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the declaration of fidelity and secrecy that directors, members, auditors, advisors, officers, or employees of the National Housing Bank or Reserve Bank must make?",
+        "answer": "They must make a declaration of fidelity and secrecy in the form set out in the First Schedule to this Act before entering upon their duties. (Section 44)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=60",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the exception to the obligation of secrecy for the National Housing Bank or Reserve Bank?",
+        "answer": "They can divulge information when it is necessary or appropriate for them to do so in accordance with the law or practice and usage customary among bankers. (Section 44)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=60",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the effect of any vacancy or defect in the constitution of the Board or committee of the National Housing Bank?",
+        "answer": "No act or proceeding of the Board or of any committee of the National Housing Bank shall be questioned on the ground merely of the existence of any vacancy in, or defect in the constitution of, the Board or the committee. (Section 45)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=60",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the effect of any act done by a person acting in good faith as a director or member of a committee of the National Housing Bank?",
+        "answer": "Such act shall not become invalid merely on the ground that he was qualified to be a director or that there was any other defect in his appointment. (Section 45)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=60",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the arrangement with National Housing Bank on appointment of directors to housing finance institutions?",
+        "answer": "Any arrangement entered into by the National Housing Bank with a housing finance institution provides for the appointment by the National Housing Bank of one or more directors of such housing finance institution. Such provision and any appointment of directors made in pursuance thereof shall be valid and effective, notwithstanding anything to the contrary contained in any law or instrument aforesaid. (Section 45A)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=61",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the indemnity of directors in the National Housing Bank?",
+        "answer": "Every director shall be indemnified by the National Housing Bank against all losses and expenses incurred by him in, or in relation to, the discharge of his duties, except such as are caused by his own willful act or default. (Section 47)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=62",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the protection of action taken under the Act for the National Housing Bank or Reserve Bank?",
+        "answer": "No suit or other legal proceeding shall lie against the National Housing Bank or any director or any officer or other employee of the National Housing Bank or any other person authorized by the National Housing Bank to discharge any functions under this Act for any loss or damage caused or likely to be caused by anything which is in good faith done or intended to be done in pursuance of this Act or of any other law or provision having the force of law. (Section 46)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=61",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for making a false statement or wilfully omitting to make a material statement in any return, balance sheet, or other document or in any information required or furnished by or under this Act?",
+        "answer": "The person shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to fine. (Section 49)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=62",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "What is the effect of any nomination in respect of any deposit, bonds, or other securities with the National Housing Bank?",
+        "answer": "The amount due on such deposits, bonds, or securities shall, on the death of the depositor or holder thereof, vest in, and be payable to, the nominee subject to any right, title, or interest of any other person to such deposits, bonds, or securities. (Section 47A)",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=62",
+          "chunk:30/37"
+        ]
+      },
+      {
+        "question": "Who is indemnified by the National Housing Bank against losses and expenses incurred in the discharge of duties?",
+        "answer": "Every director shall be indemnified by the National Housing Bank against all losses and expenses incurred by him in, or in relation to, the discharge of his duties, except such as are caused by his own willful act or default.",
+        "citations": [
+          "Page 62, Section 47(1)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is a director not responsible for?",
+        "answer": "A director shall not be responsible for any other director or for any officer or other employee of the National Housing Bank or for any loss or expenses resulting to the National Housing Bank from the insufficiency or deficiency of the value of, or title to, any property or security acquired or taken on behalf of the National Housing Bank or the insolvency or wrongful act of any debtor or any person under obligation to the National Housing Bank or anything done in good faith in the execution of the duties of his office in relation thereto.",
+        "citations": [
+          "Page 62, Section 47(2)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "Who is the nominee for deposits, bonds, or other securities with the National Housing Bank?",
+        "answer": "If a nomination in respect of any deposit, bonds or other securities is made with the National Housing Bank in the prescribed manner, the amount due on such deposits, bonds or securities shall, on the death of the depositor or holder thereof, vest in, and be payable to, the nominee subject to any right, title or interest of any other person to such deposits, bonds or securities.",
+        "citations": [
+          "Page 62, Section 47A(1)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the punishment for making a false statement in any return, balance sheet, or other document under this Act?",
+        "answer": "Whoever in any return, balance sheet, or other document or in any information required or furnished by or under or for the purposes of any provision of this Act, wilfully makes a statement which is false in any material particular, knowing it to be false, or wilfully omits to make a material statement, shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to fine.",
+        "citations": [
+          "Page 62, Section 49(1)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the punishment for contravening provisions of section 29A?",
+        "answer": "If any person contravenes the provisions of sub-section (1) of section 29A, he shall be punishable with imprisonment for a term which shall not be less than one year but which may extend to five years and with fine which shall not be less than one lakh rupees but may extend to five lakh rupees.",
+        "citations": [
+          "Page 63, Section 48(2A)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the punishment for failing to comply with an order made by the National Company Law Tribunal under sub-section (2) of section 36A?",
+        "answer": "Whoever fails to comply with any order made by the National Company Law Tribunal under sub-section (2) of section 36A, shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to a fine of not less than rupees fifty for every day during which such non-compliance continues.",
+        "citations": [
+          "Page 63, Section 48(2C)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the punishment for receiving any deposit in contravention of any direction given or order made under Chapter V?",
+        "answer": "Whoever receives any deposit in contravention of any direction given or order made under Chapter V, shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to fine which may extend to twice the amount of deposit received.",
+        "citations": [
+          "Page 64, Section 50(3)(a)(i)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the punishment for issuing any prospectus or advertisement otherwise than in accordance with section 35 or any order made under section 30?",
+        "answer": "Whoever issues any prospectus or advertisement otherwise than in accordance with section 35 or any order made under section 30, as the case may be, shall be punishable with imprisonment for a term which may extend to three years and shall also be liable to fine which may extend to twice the amount of the deposit called for by the prospectus or advertisement.",
+        "citations": [
+          "Page 64, Section 50(3)(b)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "Who is deemed guilty of an offence under this Act committed by a company?",
+        "answer": "Where an offence has been committed by a company, every person who, at the time the offence was committed, was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished accordingly.",
+        "citations": [
+          "Page 64, Section 50(1)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "Who is also deemed guilty of an offence under this Act committed by a company?",
+        "answer": "Notwithstanding anything contained in sub-section (1), where an offence under this Act has been committed by a company and it is proved that the offence has been committed with the consent or connivance of, or is attributable to any neglect on the part of any director, manager, secretary or other officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and punished accordingly.",
+        "citations": [
+          "Page 64, Section 50(2)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the cognizance of offences under this Act?",
+        "answer": "No court shall take cognizance of any offence punishable under this Act except upon a complaint in writing made by an officer of the National Housing Bank or the Reserve Bank, generally or specially authorised in writing in this behalf.",
+        "citations": [
+          "Page 65, Section 51(1)",
+          "chunk:31/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for a contravention falling under clause (a)?",
+        "answer": "Twice the amount of deposit received.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=64",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for a contravention falling under clause (b)?",
+        "answer": "Twice the amount of the deposit called for by the prospectus or advertisement.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=64",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "Who is liable for an offence committed by a company?",
+        "answer": "Every person who was in charge of, and responsible to the company for the conduct of the business of the company at the time the offence was committed.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=64",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What is the penalty for a director, manager, secretary or other officer of a company if an offence under this Act has been committed with their consent or connivance?",
+        "answer": "They shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and punished accordingly.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=64",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "Who can file a complaint for an offence punishable under this Act?",
+        "answer": "An officer of the National Housing Bank or the Reserve Bank generally or specially authorised in writing.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=65",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty that can be imposed by the National Housing Bank or the Reserve Bank for a contravention or default of the nature referred to in section 49?",
+        "answer": "A penalty not exceeding 10 lakh rupees or twice the amount involved in such contravention or default, where the amount is quantifiable.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=66",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "Who can impose a penalty under section 52A?",
+        "answer": "The National Housing Bank or the Reserve Bank.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=66",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty that can be imposed by a court under the Act?",
+        "answer": "A fine which may extend to twenty-five thousand rupees for every day, after the first, during which the contravention or default continues.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=66",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What happens to the liability of a housing finance institution when a fine is realised under the Act?",
+        "answer": "The liability of the housing finance institution to make repayment of the deposit shall, to the extent of the amount paid by the Court, stand discharged.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=66",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "Who can a court impose a penalty under section 52A against?",
+        "answer": "A housing finance institution which is a company.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=66",
+          "chunk:32/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty a housing finance institution can be imposed for contravention or default under section 49?",
+        "answer": "A penalty not exceeding 10 lakh rupees or twice the amount involved in such contravention or default, where the amount is quantifiable.",
+        "citations": [
+          "Page 66",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for failing to produce any book, account, or other document under this Act?",
+        "answer": "A penalty not exceeding one lakh fifty thousand rupees in respect of each contravention or default.",
+        "citations": [
+          "Page 67",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for an auditor failing to comply with a direction given by the National Housing Bank or the Reserve Bank under section 33?",
+        "answer": "A penalty not exceeding ten lakh rupees.",
+        "citations": [
+          "Page 67",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for failing to comply with a direction given or order made by the National Housing Bank or the Reserve Bank under Chapter V?",
+        "answer": "A penalty not exceeding ten lakh rupees or twice the amount involved in such contravention or default, where the amount is quantifiable.",
+        "citations": [
+          "Page 67",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for any other provision of this Act being contravened or if any default is made in complying with any other requirement?",
+        "answer": "A penalty not exceeding one lakh rupees in respect of each contravention or default.",
+        "citations": [
+          "Page 68",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the timeline for paying a penalty imposed by the National Housing Bank or the Reserve Bank under this section?",
+        "answer": "The penalty should be paid within a period of thirty days from the date on which notice demanding payment of the sum is served.",
+        "citations": [
+          "Page 68",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "Where can a direction for levying a penalty be made if it is not paid within the specified time?",
+        "answer": "The direction can be made by the principal civil court having jurisdiction in the area where the registered office or the head office of the housing finance institution is situated.",
+        "citations": [
+          "Page 68",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What happens if a complaint is filed against a housing finance institution in a court in respect of contravention or default of the nature referred to in section 49?",
+        "answer": "No proceedings for imposition of penalty against the housing finance institution shall be taken under this section.",
+        "citations": [
+          "Page 66",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty a person or housing finance institution can be imposed for any other provision of this Act being contravened or if any default is made in complying with any other requirement?",
+        "answer": "A penalty not exceeding one lakh rupees in respect of each contravention or default.",
+        "citations": [
+          "Page 68",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for a continuing contravention or default under this section?",
+        "answer": "Further penalty which may extend to ten thousand rupees for every day, after the first.",
+        "citations": [
+          "Page 68",
+          "chunk:33/37"
+        ]
+      },
+      {
+        "question": "What is the maximum penalty for contravention or default of regulatory requirements?",
+        "answer": "A penalty not exceeding one lakh rupees for each contravention or default, and further penalty which may extend to ten thousand rupees for every day during which the contravention or default continues.",
+        "citations": [
+          "Page 68",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "Who can impose a penalty under this Act?",
+        "answer": "The National Housing Bank or the Reserve Bank.",
+        "citations": [
+          "Page 68",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What notice must be served before imposing a penalty?",
+        "answer": "A notice must be served on the person or housing finance institution requiring them to show cause why the amount specified in the notice should not be imposed as a penalty, and a reasonable opportunity of being heard shall also be given.",
+        "citations": [
+          "Page 68",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "How long does a person or housing finance institution have to pay a penalty?",
+        "answer": "The sum must be paid within a period of thirty days from the date on which notice is served.",
+        "citations": [
+          "Page 68",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What happens if a person or housing finance institution fails to pay a penalty?",
+        "answer": "The sum may be levied on a direction made by the principal civil court having jurisdiction in the area where such person ordinarily resides or, as the case may be, the registered office or the head office of such housing finance institution is situated.",
+        "citations": [
+          "Page 68",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "Can a direction be made to levy a penalty except on an application made by an officer of the National Housing Bank or the Reserve Bank?",
+        "answer": "No, such direction shall not be made except on an application made by an officer of the National Housing Bank or the Reserve Bank.",
+        "citations": [
+          "Page 69",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What is the effect of a certificate issued under sub-section (3)?",
+        "answer": "Every such certificate shall be enforceable in the same manner as if it were a decree made by the court in a civil suit.",
+        "citations": [
+          "Page 69",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "Can any complaint be filed against a housing finance institution which is a company in any court of law pertaining to any contravention or default in respect of which any penalty has been imposed by the National Housing Bank or the Reserve Bank?",
+        "answer": "No, no complaint shall be filed against any housing finance institution which is a company in any court of law pertaining to any contravention or default in respect of which any penalty has been imposed.",
+        "citations": [
+          "Page 69",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What happens if a complaint has been filed against a housing finance institution which is a company in a court in respect of contravention or default of the nature referred to in section 49?",
+        "answer": "No proceedings for imposition of penalty against such housing finance institution shall be taken under this section.",
+        "citations": [
+          "Page 69",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What is the Bankers’ Books Evidence Act, and how does it apply to the National Housing Bank?",
+        "answer": "The Bankers' Books Evidence Act, 1891, shall apply in relation to the National Housing Bank as if it were a bank as defined in section 2 of that Act.",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What is the procedure for the liquidation of the National Housing Bank?",
+        "answer": "No provision of law relating to the winding up of companies shall apply to the National Housing Bank and the National Housing Bank shall not be placed in liquidation save by order of the Central Government and in such manner as it may direct.",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "Who has the power to make rules under this Act?",
+        "answer": "The Central Government may, by notification, make rules to carry out the provisions of this Act.",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What matters can such rules provide for?",
+        "answer": "Such rules may provide for all or any of the following matters, namely:- (a) qualifications for appointment as a recovery officer under sub-section (1) of section 36D; (b) the salaries and allowances and other terms and conditions of service of the officers and other employees of the Appellate Tribunal under sub-section (3) of section 36M; (c) the salaries and allowances and other terms and conditions of service of the Presiding Officers of the Appellate Tribunal under section 36N; and (d) the procedure for the investigation of misbehaviour or incapacity of the Presiding Officers of the Appellate Tribunals under sub-section (3) of section 36P.",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What powers does the Board have to make regulations?",
+        "answer": "The Board may, with the previous approval of the Central Government, by notification, make regulations not inconsistent with this Act to provide for all matters for which provision is necessary or expedient for the purpose of giving effect to the provisions of this Act.",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "What matters can such regulations provide for?",
+        "answer": "In particular and without prejudice to the generality of the foregoing power, such regulations may provide for all or any of the following matters, namely:- (a) the fees and allowances that may be paid to the directors for attending the meetings of the Board or its committees under sub-section (5) of section 7; (b) the times and places at which the Board may meet, and the rules of procedure that may be followed in regard to the transaction of business under sub-section (1) of section 11;",
+        "citations": [
+          "Page 70",
+          "chunk:34/37"
+        ]
+      },
+      {
+        "question": "Who can make regulations under this Act?",
+        "answer": "The Board, with the previous approval of the Central Government.",
+        "citations": [
+          "55(1)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the power of the Board to make regulations?",
+        "answer": "The Board may make regulations not inconsistent with this Act to provide for all matters necessary or expedient for giving effect to the provisions of this Act.",
+        "citations": [
+          "55(1)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What matters can the regulations provided by the Board cover?",
+        "answer": "The regulations may provide for various matters such as fees, allowances, election of directors, rules of procedure, borrowing in foreign currency, forms of applications and notices, balance sheets and accounts, duties and conduct of staff, establishment and maintenance of funds, nomination, etc.",
+        "citations": [
+          "55(2)",
+          "(a)-(fa)",
+          "(g)-(j)",
+          "(ja)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the consultation process for making regulations by the Board?",
+        "answer": "Before the expiry of three months from the date of establishment of the National Housing Bank, the Board may make regulations in consultation with the Central Government.",
+        "citations": [
+          "55(3)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the power to give retrospective effect to the regulations?",
+        "answer": "The power to give retrospective effect to the regulations or any of them from a date not earlier than the date of commencement of this Act.",
+        "citations": [
+          "55(4)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the procedure for laying regulations before each House of Parliament?",
+        "answer": "Every rule, regulation or scheme made under this Act shall be laid before each House of Parliament as soon as may be after it is made, for a total period of thirty days.",
+        "citations": [
+          "55(5)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What happens if both Houses agree to modify or annul the regulations?",
+        "answer": "The regulations shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that regulation.",
+        "citations": [
+          "55(5)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "Who is qualified for appointment as a recovery officer under section 36D?",
+        "answer": "Qualifications for appointment as a recovery officer under sub-section (1) of section 36D are to be provided by rules made by the Board.",
+        "citations": [
+          "61(a)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What are the salaries and allowances and other terms and conditions of service of the officers and other employees of the Appellate Tribunal?",
+        "answer": "The salaries and allowances and other terms and conditions of service of the officers and other employees of the Appellate Tribunal under sub-section (3) of section 36M are to be provided by rules made by the Board.",
+        "citations": [
+          "61(b)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What are the salaries and allowances and other terms and conditions of service of the Presiding Officers of the Appellate Tribunal?",
+        "answer": "The salaries and allowances and other terms and conditions of service of the Presiding Officers of the Appellate Tribunal under section 36N are to be provided by rules made by the Board.",
+        "citations": [
+          "61(c)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the procedure for the investigation of misbehaviour or incapacity of the Presiding Officers of the Appellate Tribunals?",
+        "answer": "The procedure for the investigation of misbehaviour or incapacity of the Presiding Officers of the Appellate Tribunals under sub-section (3) of section 36P is to be provided by rules made by the Board.",
+        "citations": [
+          "61(d)",
+          "chunk:35/37"
+        ]
+      },
+      {
+        "question": "What is the manner in which nomination can be made under section 47A(1) of the National Housing Bank Act?",
+        "answer": "The manner in which nomination may be made under sub-section (1) of section 47A is prescribed.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72, line 1",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What is the process for making regulations under the National Housing Bank Act?",
+        "answer": "Regulations can be made by the Board in consultation with the Central Government before the expiry of three months from the date of establishment of the National Housing Bank. They may also have retrospective effect.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72, lines 2-4",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What is the role of the Central Government in making regulations under the National Housing Bank Act?",
+        "answer": "The Central Government shall cause every rule, regulation or scheme made under this Act to be laid before each House of Parliament.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72, lines 5-9",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What is the power to remove difficulties under the National Housing Bank Act?",
+        "answer": "The Central Government may, by order, remove any difficulty that arises in giving effect to the provisions of this Act. No such order shall be made after the expiry of a period of three years from the commencement of this Act.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=73, lines 1-4",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What is the Declaration of Fidelity and Secrecy under the National Housing Bank Act?",
+        "answer": "It is a declaration made by directors, members of committees, auditors, advisors, officers or other employees of the National Housing Bank to faithfully execute their duties and not communicate any information relating to the affairs of the bank.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=74, lines 1-8",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the eligibility criteria for becoming a director, member of a committee, auditor, advisor, officer or employee of the National Housing Bank?",
+        "answer": "No specific eligibility criteria are mentioned in this document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=74, lines 1-8",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the KYC/AML obligations under the National Housing Bank Act?",
+        "answer": "No specific KYC/AML obligations are mentioned in this document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72-74",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the mortgage-related clauses under the National Housing Bank Act?",
+        "answer": "No specific mortgage-related clauses are mentioned in this document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72-74",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the enforceable obligations for making rules, regulations or schemes under the National Housing Bank Act?",
+        "answer": "The Central Government shall cause every rule, regulation or scheme made under this Act to be laid before each House of Parliament.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72, lines 5-9",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the exceptions to the rules, regulations or schemes made under the National Housing Bank Act?",
+        "answer": "No specific exceptions are mentioned in this document.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72-74",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What are the timelines for laying rules, regulations or schemes made under the National Housing Bank Act before Parliament?",
+        "answer": "Every rule, regulation or scheme made under this Act should be laid before each House of Parliament as soon as may be after it is made, and within a total period of thirty days which may be comprised in one session or in two or more successive sessions.",
+        "citations": [
+          "/Users/harshwardhansaindane/projects/tcs/data/NHB-Act-amended-upto-2023.pdf#page=72, lines 5-9",
+          "chunk:36/37"
+        ]
+      },
+      {
+        "question": "What is the declaration that directors, members of committees, auditors, advisors, officers or other employees must make?",
+        "answer": "They must declare that they will faithfully, truly and to the best of their skill and ability execute and perform the duties required of them as per their office or position in the National Housing Bank. They also agree not to communicate any information relating to the affairs of the National Housing Bank to unauthorized persons.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the declaration referred to in Section 16A of the National Housing Bank Act, 1987?",
+        "answer": "It is a declaration where the borrower agrees that the immovable property specified will constitute security for the assistance sanctioned by the National Housing Bank and that the dues relating to the assistance mentioned above shall be a charge on the said immovable property.",
+        "citations": [
+          "Page 76",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the Third Schedule of the National Housing Bank Act, 1987?",
+        "answer": "It is a schedule that contains the declaration referred to in Section 16A of the National Housing Bank Act, 1987.",
+        "citations": [
+          "Page 76",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What does the Second Schedule of the National Housing Bank Act, 1987 represent?",
+        "answer": "It is not clearly defined in the provided document. However, it is mentioned that it has been repealed and amended by the Repealing and Amending Act, 2001.",
+        "citations": [
+          "Page 75",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the enforceable obligation for employees of the National Housing Bank regarding secrecy?",
+        "answer": "They must not communicate or allow to be communicated any information relating to the affairs of the National Housing Bank nor will they allow any such person to inspect or have access to any books or documents belonging to or in the possession of the National Housing Bank and relating to the business of the said National Housing Bank.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the eligibility criterion for a borrower to agree to the declaration in the Third Schedule?",
+        "answer": "The borrower must have requested assistance from the National Housing Bank, and the assistance must have been sanctioned by the National Housing Bank.",
+        "citations": [
+          "Page 76",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the role of a surety in the declaration referred to in Section 16A of the National Housing Bank Act, 1987?",
+        "answer": "The role of a surety is not clearly defined in the provided document. However, it is mentioned that they must sign and deliver the declaration.",
+        "citations": [
+          "Page 76",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What is the KYC/AML obligation for employees of the National Housing Bank?",
+        "answer": "There is no explicit mention of KYC/AML obligations in the provided document.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What are the risks associated with not adhering to the declaration made by employees of the National Housing Bank?",
+        "answer": "The risks are not explicitly stated in the provided document. However, it is mentioned that they must not communicate or allow to be communicated any information relating to the affairs of the National Housing Bank nor will they allow any such person to inspect or have access to any books or documents belonging to or in the possession of the National Housing Bank and relating to the business of the said National Housing Bank.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What are the timelines for the Second Schedule of the National Housing Bank Act, 1987?",
+        "answer": "The timeline for the Second Schedule is not explicitly stated in the provided document. However, it is mentioned that it has been repealed and amended by the Repealing and Amending Act, 2001 on 3rd September 2001.",
+        "citations": [
+          "Page 75",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "What are the penalties for not adhering to the declaration made by employees of the National Housing Bank?",
+        "answer": "The penalties for not adhering to the declaration are not explicitly stated in the provided document.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "Are there any exceptions to the enforceable obligations for employees of the National Housing Bank?",
+        "answer": "There is no explicit mention of exceptions in the provided document.",
+        "citations": [
+          "Page 74",
+          "chunk:37/37"
+        ]
+      },
+      {
+        "question": "Are there any mortgage-related clauses in the Third Schedule of the National Housing Bank Act, 1987?",
+        "answer": "Yes, the immovable property specified in the Annexure is considered as security for the assistance sanctioned by the National Housing Bank.",
+        "citations": [
+          "Page 76",
+          "chunk:37/37"
+        ]
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "source_path": "/Users/harshwardhansaindane/projects/tcs/data/Non-banking-financial-company.pdf",
+      "doc_type": "regulatory",
+      "language": "en",
+      "notes": "Chunk 1: failed to parse JSON; content skipped; Chunk 2: failed to parse JSON; content skipped; Chunk 3: failed to parse JSON; content skipped; Chunk 4: failed to parse JSON; content skipped; Chunk 5: failed to parse JSON; content skipped; Chunk 6: failed to parse JSON; content skipped; Chunk 7: failed to parse JSON; content skipped; Chunk 8: failed to parse JSON; content skipped; Chunk 9: failed to parse JSON; content skipped; Chunk 10: failed to parse JSON; content skipped; Chunk 11: failed to parse JSON; content skipped; Chunk 12: failed to parse JSON; content skipped; Chunk 13: failed to parse JSON; content skipped; Chunk 14: failed to parse JSON; content skipped; Chunk 15: failed to parse JSON; content skipped; Chunk 16: failed to parse JSON; content skipped; Chunk 17: failed to parse JSON; content skipped; Chunk 18: failed to parse JSON; content skipped; Chunk 19: failed to parse JSON; content skipped; Chunk 20: failed to parse JSON; content skipped; Chunk 21: failed to parse JSON; content skipped; Chunk 22: failed to parse JSON; content skipped; Chunk 23: failed to parse JSON; content skipped; Chunk 24: failed to parse JSON; content skipped; Chunk 25: failed to parse JSON; content skipped; Chunk 26: failed to parse JSON; content skipped"
+    },
+    "qna": []
   }
 ]
