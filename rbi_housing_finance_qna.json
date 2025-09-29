@@ -176,14 +176,6 @@
         ]
       },
       {
-        "question": "What is the guideline regarding the National Building Code (NBC)?",
-        "answer": "Adherence to the NBC is advisable for building safety. Banks' boards should consider incorporating this into loan policies.",
-        "citations": [
-          "10",
-          "chunk:2/3"
-        ]
-      },
-      {
         "question": "Can UCBs extend finance for land acquisition?",
         "answer": "UCBs should not extend finance for land acquisition, even if it's part of a project.  Finance for individual plot purchases is allowed with a declaration of intent to construct a house within a specified timeframe.",
         "citations": [
@@ -232,14 +224,6 @@
         ]
       },
       {
-        "question": "Are loans permissible for properties in unauthorized colonies?",
-        "answer": "No, unless the colonies have been regularized and all development and other charges have been paid.",
-        "citations": [
-          "Page 15",
-          "chunk:3/3"
-        ]
-      },
-      {
         "question": "Are loans permissible for properties intended for commercial use but declared as residential?",
         "answer": "No.",
         "citations": [
@@ -252,30 +236,6 @@
         "answer": "The rules do not apply to farmhouses on agricultural land outside Gram Panchayats and Municipal Councils' jurisdiction, where local rules apply.",
         "citations": [
           "Page 15",
-          "chunk:3/3"
-        ]
-      },
-      {
-        "question": "What is the timeline for obtaining a completion certificate after construction, and what are the consequences of failure to do so?",
-        "answer": "The completion certificate must be obtained within 3 months of construction completion. Failure to do so allows the bank to recall the entire loan with interest, costs, and bank charges.",
-        "citations": [
-          "Page 15",
-          "chunk:3/3"
-        ]
-      },
-      {
-        "question": "What are the key facts statement (KFS) requirements for loans and advances?",
-        "answer": "The document mentions a circular (DOR.STR.REC.13/13.03.00/2024-25, dated 15.04.2024) addressing Key Facts Statement (KFS) requirements, but the specifics are not provided in this excerpt.",
-        "citations": [
-          "Page 16",
-          "chunk:3/3"
-        ]
-      },
-      {
-        "question": "What are the rules regarding penal charges in loan accounts?",
-        "answer": "The document mentions circulars (DOR.CRE.REC.62/07.10.002/2024-25, dated 24.02.2025 and DOR.CRE.REC.92/07.10.002/2022-23, dated 18.08.2023) addressing penal charges, but the specifics are not provided in this excerpt.",
-        "citations": [
-          "Page 16",
           "chunk:3/3"
         ]
       },
@@ -322,32 +282,8 @@
         ]
       },
       {
-        "question": "What is the dual focus of the DoR?",
-        "answer": "Depositor protection and the promotion of a robust financial system.",
-        "citations": [
-          "Page 7",
-          "chunk:1/35"
-        ]
-      },
-      {
-        "question": "What type of regulatory architecture does the DoR operate through?",
-        "answer": "A twin-peak regulatory architecture, divided into the Prudential Regulation Division and the Conduct and Operations Division.",
-        "citations": [
-          "Page 7",
-          "chunk:1/35"
-        ]
-      },
-      {
         "question": "What is the purpose of the Regulations Review Authority 2.0 (RRA 2.0)?",
         "answer": "To review regulatory prescriptions internally and solicit suggestions from RBI regulated entities and stakeholders for simplification and ease of implementation.",
-        "citations": [
-          "Page 7",
-          "chunk:1/35"
-        ]
-      },
-      {
-        "question": "When did RRA 2.0 finalize its report?",
-        "answer": "June 10, 2022",
         "citations": [
           "Page 7",
           "chunk:1/35"
@@ -364,14 +300,6 @@
       {
         "question": "What should regulated entities consult for specific compliance requirements?",
         "answer": "Respective, detailed regulations issued through Circulars/Master Circulars/Master Directions and as amended from time to time.",
-        "citations": [
-          "Page 7",
-          "chunk:1/35"
-        ]
-      },
-      {
-        "question": "How often will the handbook be updated?",
-        "answer": "At regular intervals to reflect changes in the regulatory environment.",
         "citations": [
           "Page 7",
           "chunk:1/35"
@@ -491,14 +419,6 @@
         ]
       },
       {
-        "question": "Who grants banking licenses to State and Central Cooperative Banks?",
-        "answer": "The RBI grants banking licenses based on recommendations from NABARD and its internal analyses.  The State Government declares a particular society as StCB/CCB.",
-        "citations": [
-          "Page 10, Section II.1",
-          "chunk:2/35"
-        ]
-      },
-      {
         "question": "What are the minimum paid-up capital or net worth requirements for different categories of commercial banks?",
         "answer": "Commercial Banks: 1,000 crore; Cooperative Banks: Varies from 12.5 lakh to 4 crore depending on category and population size; Universal Banks: 300 crore; Small Finance Banks:  Not specified in this excerpt; Urban Cooperative Banks: Not specified in this excerpt; Rural Cooperative Banks (StCBs, CCBs): Not specified in this excerpt.",
         "citations": [
@@ -519,46 +439,6 @@
         "answer": "Fit and Proper Criteria. Resident individuals with >10 years of experience in senior banking/finance roles; sound credentials and integrity; successful track record >10 years (for individuals). Resident Indian citizens with >10 years of experience in senior banking/finance roles; companies/societies with successful track record >5 years (for companies/societies).",
         "citations": [
           "Page 10",
-          "Page 11",
-          "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the conditions for transition from other financial institutions to commercial banks?",
-        "answer": "Existing NBFCs controlled by residents with >10 years of successful track record can set up commercial banks.",
-        "citations": [
-          "Page 11",
-          "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the conditions for transition from other financial institutions to cooperative banks?",
-        "answer": "Existing NBFCs, LABs, MFIs controlled by residents with >5 years of successful track record can set up cooperative banks.",
-        "citations": [
-          "Page 11",
-          "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the conditions for converting a Scheduled Small Finance Bank (SFB) into a Universal Bank?",
-        "answer": "Satisfactory track record > 5 years; Net Worth > 1000 crore; meeting prescribed CRAR; net profit in last 2 FY; GNPA ≤ 3% and NNPA ≤ 1%.",
-        "citations": [
-          "Page 11",
-          "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the conditions for converting an Urban Cooperative Bank (UCB) into a Universal Bank?",
-        "answer": "Net worth ≥ 150 crore and maintaining CRAR ≥ 9%.",
-        "citations": [
-          "Page 11",
-          "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the conditions for converting a Payments Bank (PB) into a Universal Bank?",
-        "answer": "Completion of five years of operations.",
-        "citations": [
           "Page 11",
           "chunk:3/35"
         ]
@@ -593,110 +473,6 @@
         "citations": [
           "Page 12",
           "chunk:3/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum Current Net Owned Funds (NOF) for a Type I NBFC-ICC?",
-        "answer": "A Type I NBFC-ICC is defined as an NBFC-ICC where financial assets represent >50% of total assets and income from these assets represents >50% of gross income; it does not accept/intend to accept public funds and does not have/intend to have customer interface.  The minimum NOF is \\u20b92 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for a Type II NBFC-ICC?",
-        "answer": "A Type II NBFC-ICC is defined as an NBFC-ICC where financial assets represent >50% of total assets and income from these assets represents >50% of gross income; it accepts/intends to accept public funds and/or has/intends to have customer interface. The minimum NOF is \\u20b910 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What is the minimum NOF for an NBFC-P2P?",
-        "answer": "The minimum NOF for an NBFC that operates a peer-to-peer lending platform is \\u20b92 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What is the minimum NOF for an NBFC-AA?",
-        "answer": "The minimum NOF for an NBFC that operates as an account aggregator is \\u20b92 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an NBFC-MFI?",
-        "answer": "An NBFC-MFI is a non-deposit taking NBFC with at least 75% of its total assets deployed towards micro-finance loans. The minimum NOF is \\u20b910 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an NBFC-FACTOR?",
-        "answer": "An NBFC-FACTOR is an NBFC with at least 50% of its total assets and at least 50% of its gross income derived from factoring business. The minimum NOF is \\u20b910 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an NBFC-HFC?",
-        "answer": "An NBFC-HFC is an NBFC with at least 60% of its total assets (netted off by intangible assets) in housing finance; and at least 50% of its total assets (netted off by intangible assets) in housing finance for individuals. The minimum NOF is \\u20b920 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an MGC?",
-        "answer": "An MGC is a company where at least 90% of its business turnover or gross income is from mortgage guarantee business. The minimum NOF is \\u20b9100 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an IDF-NBFC?",
-        "answer": "An IDF-NBFC is a non-deposit taking NBFC permitted to refinance post commencement operations date (COD) infrastructure projects with at least 01 year of satisfactory commercial operations; it can also finance toll operate transfer (TOT) projects as the direct lender. The minimum NOF is \\u20b9300 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an NBFC-IFC?",
-        "answer": "An NBFC-IFC is a non-deposit taking NBFC with at least 75% of its total assets deployed towards infrastructure lending. The minimum NOF is \\u20b9300 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What is the minimum NOF for an ARC?",
-        "answer": "The minimum NOF for an Asset Reconstruction Company (ARC) is \\u20b9300 crore.",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the defining conditions and minimum NOF for an NBFC-CIC?",
-        "answer": "An NBFC-CIC (Core Investment Company) must have at least \\u20b9100 crore of total assets (individually or in aggregate with other CICs in the group), raise or hold public funds, and have 90% of its net assets in investments/loans in group companies (60% of which must be in equity shares).",
-        "citations": [
-          "Page 12",
-          "chunk:4/35"
-        ]
-      },
-      {
-        "question": "What are the prescribed qualifications for directors of banking companies as per the BR Act?",
-        "answer": "The BR Act prescribes certain qualifications for Directors of the banking company.  Enhanced requirements include expertise in additional fields like IT, risk management, etc.",
-        "citations": [
-          "Page 14",
-          "chunk:5/35"
         ]
       },
       {
@@ -2030,14 +1806,6 @@
       {
         "question": "Which entities are subject to the prudential framework on stressed asset resolution?",
         "answer": "SCBs (excluding RRBs), All India Financial Institutions (AIFIs), and non-deposit taking NBFCs with assets of \\u00a5500 crore and above, and all deposit-taking NBFCs.",
-        "citations": [
-          "Page 34",
-          "chunk:15/35"
-        ]
-      },
-      {
-        "question": "What is the timeline for the prima facie review of a borrower's account after default?",
-        "answer": "Lenders must complete the review within 30 days of default.",
         "citations": [
           "Page 34",
           "chunk:15/35"
