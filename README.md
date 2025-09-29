@@ -4,7 +4,7 @@ Convert regulatory documents (PDF/HTML/TXT or URLs) into strict JSON QnA using L
 
 ## Quick Start
 
-### 1) Python env and dependencies
+### 1) Python env and dependencies (MAC)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
