@@ -1,6 +1,8 @@
-# Regulatory QnA Generator (PoC)
+# Regulatory QnA Generator & Llama Training (PoC)
 
 Convert regulatory documents (PDF/HTML/TXT or URLs) into strict JSON QnA using LLMs. Includes dynamic chunking for full coverage, URL/PDF ingestion, and multiple providers (Groq, Ollama, Gemini, OpenAI). Appends results to an existing JSON file.
+
+**Includes fine-tuning Llama models on regulatory compliance data using LoRA for efficient training on GCP.**
 
 ## Quick Start
 
@@ -106,13 +108,59 @@ python main.py \
 - To avoid API limits, use Ollama (`--provider ollama --model mistral`).
 - The script appends results to an existing output file; keep a single `--output` path to accumulate.
 
+## Training Llama on Regulatory Data
+
+### Quick Start - GCP Training
+
+1. **Setup**: Follow [GCP_TRAINING_GUIDE.md](GCP_TRAINING_GUIDE.md) for detailed instructions
+2. **Deploy**: Run `./deploy_to_gcp.sh` to create and configure your instance
+3. **Train**: SSH into instance and run `python train_llama.py --train_data train_data.jsonl --val_data val_data.jsonl`
+
+### Training Features
+
+- **LoRA (Low-Rank Adaptation)**: Trains only ~8M parameters (1% of the model)
+- **4-bit Quantization**: Reduces memory from 14GB to 4GB
+- **Single GPU Training**: Works on NVIDIA T4 (available on GCP)
+- **Cost-effective**: ~$5 for complete training run
+
+### Training Script
+
+```bash
+# Basic training
+python train_llama.py \
+    --train_data train_data.jsonl \
+    --val_data val_data.jsonl \
+    --epochs 3 \
+    --batch_size 4 \
+    --output_dir ./llama_regulatory_model
+
+# Advanced options
+python train_llama.py \
+    --train_data train_data.jsonl \
+    --val_data val_data.jsonl \
+    --epochs 5 \
+    --learning_rate 1e-4 \
+    --batch_size 8 \
+    --gradient_accumulation_steps 2 \
+    --fp16
+```
+
+### What You Get
+
+- **Fine-tuned Llama model** specialized in regulatory compliance
+- **Reduced hallucinations** through domain-specific training
+- **Better accuracy** on regulatory Q&A tasks
+- **Checkpoints** saved during training for recovery
+
 ## Development
 - Python: 3.10+
 - Key libs: pypdf, beautifulsoup4, requests, google-generativeai, openai, groq
+- Training libs: torch, transformers, peft, accelerate, bitsandbytes
 
 ## Security
 - Add secrets to `.env` and ensure `.env` is in `.gitignore` (already configured).
 - If a secret leaked in Git, rotate it and remove the file from history.
+- For GCP, use service accounts with minimal required permissions.
 
 ## License
 PoC / internal use.
