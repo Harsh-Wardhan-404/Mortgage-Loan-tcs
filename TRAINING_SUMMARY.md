@@ -61,7 +61,7 @@ python train_llama.py \
 ## How It Works
 
 ```
-1. Load Llama 3 8B with 4-bit quantization (~16GB → 4GB)
+1. Load Llama 3.1 8B with 4-bit quantization (~16GB → 4GB)
 2. Add LoRA adapters to attention layers (~8M parameters)
 3. Freeze base model, train only LoRA weights
 4. Save checkpoints during training
@@ -92,7 +92,7 @@ Input: Regulatory Q&A Data
          ↓
 [Tokenization + Embedding]
          ↓
-[Llama 3 Base Model (8B, frozen)]
+[Llama 3.1 Base Model (8B, frozen)]
          ↓
 [LoRA Adapters (8M, trainable)]
          ↓

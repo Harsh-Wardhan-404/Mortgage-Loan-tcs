@@ -85,7 +85,7 @@ tcs/
 ## 📊 Technical Details
 
 ### Training Configuration
-- **Base Model**: Llama 3 8B Instruct (meta-llama/Llama-3-8B-Instruct)
+- **Base Model**: Llama 3.1 8B Instruct (meta-llama/Meta-Llama-3.1-8B-Instruct)
 - **Trainable Parameters**: 8M (LoRA adapters)
 - **Memory Usage**: ~4GB GPU memory (with 4-bit quantization)
 - **Training Time**: 6-8 hours for 3 epochs

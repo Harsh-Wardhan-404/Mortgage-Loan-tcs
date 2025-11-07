@@ -6,15 +6,18 @@
 ################################################################################
 
 # Configuration
-PROJECT_ID=""  # Set your GCP project ID
-ZONE="us-central1-a"
+PROJECT_ID="tcs-model-training"  # Set your GCP project ID
+ZONE="us-east1-d"
 INSTANCE_NAME="llama-training"
-MACHINE_TYPE="n1-standard-8"  # 8 vCPUs, 30GB RAM
+MACHINE_TYPE="n1-standard-16"  # 16 vCPUs, 60GB RAM (safer for preprocessing)
 BOOT_DISK_SIZE="200GB"
-IMAGE_FAMILY="ubuntu-2204-lts"
-IMAGE_PROJECT="ubuntu-os-cloud"
+# Use a specific DLVM family known to exist (PyTorch 2.1 + CUDA 11.8, Ubuntu 20.04)
+# To discover other families: gcloud compute images list --project=deeplearning-platform-release | grep pytorch
+IMAGE_NAME="pytorch-2-7-cu128-ubuntu-2204-nvidia-570-v20251105"
+IMAGE_PROJECT="deeplearning-platform-release"
 ACCELERATOR_TYPE="nvidia-tesla-t4"
 ACCELERATOR_COUNT="1"
+TENSORBOARD_RULE="allow-tensorboard-6006"
 
 print_info() {
     echo -e "\033[0;32m[INFO]\033[0m $1"
@@ -41,17 +44,26 @@ set -e
 print_info "Setting up GCP project..."
 gcloud config set project $PROJECT_ID
 
+print_info "Ensuring TensorBoard firewall rule exists (tcp:6006)..."
+if ! gcloud compute firewall-rules describe $TENSORBOARD_RULE >/dev/null 2>&1; then
+    gcloud compute firewall-rules create $TENSORBOARD_RULE \
+        --allow tcp:6006 \
+        --source-ranges 0.0.0.0/0 \
+        --description "Allow TensorBoard access" \
+        --quiet
+fi
+
 print_info "Creating GPU instance for training..."
 gcloud compute instances create $INSTANCE_NAME \
     --zone=$ZONE \
     --machine-type=$MACHINE_TYPE \
     --boot-disk-size=$BOOT_DISK_SIZE \
     --boot-disk-type=pd-ssd \
-    --image-family=$IMAGE_FAMILY \
+    --image=$IMAGE_NAME \
     --image-project=$IMAGE_PROJECT \
     --accelerator type=$ACCELERATOR_TYPE,count=$ACCELERATOR_COUNT \
     --maintenance-policy=TERMINATE \
-    --scopes=https://www.googleapis.com/auth/cloud-platform
+    --scopes=https://www.googleapis.com/auth/cloud-platform,https://www.googleapis.com/auth/devstorage.read_write
 
 print_info "Waiting for instance to be ready..."
 sleep 30
@@ -73,3 +85,5 @@ print_info "To SSH into the instance:"
 echo "  gcloud compute ssh --zone=$ZONE $INSTANCE_NAME"
 print_info "To run training:"
 echo "  python train_llama.py --train_data train_data.jsonl --val_data val_data.jsonl"
+print_info "To start TensorBoard (already installed):"
+echo "  source venv/bin/activate && ./start_tensorboard.sh"

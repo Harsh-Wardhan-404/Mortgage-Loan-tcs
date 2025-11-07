@@ -13,6 +13,7 @@ import argparse
 import json
 import os
 import sys
+import subprocess
 from pathlib import Path
 from typing import Dict, Any
 
@@ -80,7 +81,7 @@ class RegulatoryDataset(Dataset):
 
 
 def setup_model_and_tokenizer(
-    model_name: str = "meta-llama/Llama-3-8B-Instruct",
+    model_name: str = "meta-llama/Llama-3.1-8B-Instruct",
     use_4bit: bool = True,
     use_nested_quant: bool = False,
     bnb_4bit_compute_dtype: str = "float16",
@@ -204,14 +205,20 @@ def main():
     parser.add_argument(
         "--model_name",
         type=str,
-        default="meta-llama/Llama-3-8B-Instruct",
-        help="Hugging Face model name (default: Llama 3 8B Instruct)"
+        default="meta-llama/Meta-Llama-3.1-8B-Instruct",
+        help="Hugging Face model name (default: Llama 3.1 8B Instruct)"
     )
     parser.add_argument(
         "--output_dir",
         type=str,
         default="./llama_regulatory_model",
         help="Output directory for model checkpoints"
+    )
+    parser.add_argument(
+        "--gcs_output_uri",
+        type=str,
+        default="",
+        help="Optional GCS URI (gs://bucket/path) to upload the trained model after completion"
     )
     
     # LoRA arguments
@@ -361,6 +368,7 @@ def main():
         report_to="tensorboard",
         remove_unused_columns=False,
         optim="paged_adamw_8bit",  # Use 8-bit optimizer
+        logging_dir=os.path.join(args.output_dir, "runs"),
     )
     
     # Initialize trainer
@@ -385,7 +393,22 @@ def main():
     print("\nSaving final model...")
     trainer.save_model()
     tokenizer.save_pretrained(args.output_dir)
-    
+
+    if args.gcs_output_uri:
+        print("\nUploading model artifacts to GCS...")
+        try:
+            subprocess.run([
+                "gsutil",
+                "-m",
+                "cp",
+                "-r",
+                args.output_dir,
+                args.gcs_output_uri
+            ], check=True)
+            print(f"Model uploaded to {args.gcs_output_uri}")
+        except subprocess.CalledProcessError as err:
+            print(f"Failed to upload model to GCS: {err}")
+
     print("\n" + "=" * 80)
     print(f"Training complete! Model saved to: {args.output_dir}")
     print("=" * 80)

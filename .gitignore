@@ -1,2 +1,9 @@
 backup.json
 .env
+extract.log
+imp_readme_pvt.json
+
+imp_readme_pvt.md
+imp_readme_pvt.json
+.DS_Store
+venv/

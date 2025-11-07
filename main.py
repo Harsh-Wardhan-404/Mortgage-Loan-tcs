@@ -440,8 +440,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--model",
-        default="llama-3.1-8b-instant",
-        help="Model name. e.g., 'llama-3.1-8b-instant' (Groq), 'gemini-1.5-flash' (Gemini), 'mistral' (Ollama), or 'gpt-4o-mini' (OpenAI).",
+        default="qwen/qwen3-32b",
+        help="Model name. e.g., 'qwen/qwen3-32b' (Groq primary), 'gemini-1.5-flash' (Gemini), 'mistral' (Ollama), or 'gpt-4o-mini' (OpenAI).",
     )
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Base URL for Ollama.")
     parser.add_argument("--chunk-mode", choices=["dynamic", "auto", "page", "char", "off"], default="dynamic", help="Chunking strategy.")
@@ -486,17 +486,53 @@ def main() -> None:
     aggregated_qna: List[Dict[str, Any]] = []
     notes: List[str] = []
     total_chunks = len(chunks)
+    # If Groq rate limit is hit, switch all subsequent processing to Ollama llama3.1:8b
+    groq_rate_limited = False
+
     for idx, chunk in enumerate(chunks):
         chunk_prompt = build_chunk_prompt(chunk, input_source, idx, total_chunks)
         print(f"Generating QnA for chunk {idx + 1}/{total_chunks} ...")
-        if args.provider == "ollama":
-            raw_response = call_ollama(args.model, chunk_prompt, base_url=args.ollama_url)
-        elif args.provider == "openai":
-            raw_response = call_openai(args.model, chunk_prompt)
-        elif args.provider == "groq":
-            raw_response = call_groq(args.model, chunk_prompt)
-        else:
-            raw_response = call_gemini(args.model, chunk_prompt)
+        current_provider = args.provider
+        current_model = args.model
+
+        # Automatic fallback: if Groq was rate-limited earlier, route to Ollama llama3.1:8b
+        if groq_rate_limited and current_provider == "groq":
+            current_provider = "ollama"
+            current_model = "llama3.1:8b"
+
+        try:
+            if current_provider == "ollama":
+                raw_response = call_ollama(current_model, chunk_prompt, base_url=args.ollama_url)
+            elif current_provider == "openai":
+                raw_response = call_openai(current_model, chunk_prompt)
+            elif current_provider == "groq":
+                raw_response = call_groq(current_model, chunk_prompt)
+            else:
+                raw_response = call_gemini(current_model, chunk_prompt)
+        except Exception as e:
+            # Detect Groq rate limit (HTTP 429) and switch to Ollama llama3.1:8b
+            message = str(e)
+            is_rate_limit = ("429" in message) or ("Too Many Requests" in message) or ("rate limit" in message.lower())
+            is_model_not_found = ("404" in message) or ("model_not_found" in message) or ("does not exist" in message)
+            if current_provider == "groq" and is_rate_limit:
+                print("Daily TPD limit hit. Pausing Groq processing. Switching to Ollama (llama3.1:8b) for remaining chunks.")
+                groq_rate_limited = True
+                try:
+                    raw_response = call_ollama("llama3.1:8b", chunk_prompt, base_url=args.ollama_url)
+                except Exception as ollama_err:
+                    notes.append(f"Chunk {idx + 1}: fallback to Ollama failed: {ollama_err}")
+                    continue
+            elif current_provider == "groq" and is_model_not_found:
+                print("Groq model not found or access denied. Switching to Ollama (llama3.1:8b) for remaining chunks.")
+                groq_rate_limited = True
+                try:
+                    raw_response = call_ollama("llama3.1:8b", chunk_prompt, base_url=args.ollama_url)
+                except Exception as ollama_err:
+                    notes.append(f"Chunk {idx + 1}: fallback to Ollama failed: {ollama_err}")
+                    continue
+            else:
+                notes.append(f"Chunk {idx + 1}: provider error: {e}")
+                continue
 
         try:
             chunk_obj = ensure_json(raw_response)
@@ -548,6 +584,11 @@ def main() -> None:
         },
         "qna": merged_qna,
     }
+
+    # If no QnA extracted, skip writing to avoid empty/error-only entries
+    if not merged_qna:
+        print("No QnA extracted for this source. Skipping append to output to avoid empty entries.")
+        return
 
     # Append behavior: if file exists, append; if single object, convert to list then append
     existing: Any = None

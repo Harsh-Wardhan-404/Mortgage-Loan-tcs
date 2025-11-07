@@ -127,7 +127,7 @@ python train_llama.py \
 
 ### Model Configuration
 
-- **Model**: Llama 3 8B Instruct (meta-llama/Llama-3-8B-Instruct)
+- **Model**: Llama 3.1 8B Instruct (meta-llama/Meta-Llama-3.1-8B-Instruct)
   - Pre-trained on conversational data
   - Good foundation for Q&A tasks
   - 8 billion parameters
@@ -294,7 +294,7 @@ from peft import PeftModel
 
 # Load base model
 model = AutoModelForCausalLM.from_pretrained(
-    "meta-llama/Llama-3-8B-Instruct",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
     device_map="auto"
 )
 
@@ -302,7 +302,7 @@ model = AutoModelForCausalLM.from_pretrained(
 model = PeftModel.from_pretrained(model, "./llama_regulatory_model")
 
 # Load tokenizer
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3-8B-Instruct")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
 
 # Generate response
 prompt = "What are the eligibility criteria for housing finance loans?"

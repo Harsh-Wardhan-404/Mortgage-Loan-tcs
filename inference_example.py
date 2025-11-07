@@ -11,7 +11,7 @@ from peft import PeftModel
 import argparse
 
 
-def load_fine_tuned_model(model_path: str, base_model_name: str = "meta-llama/Llama-3-8B-Instruct"):
+def load_fine_tuned_model(model_path: str, base_model_name: str = "meta-llama/Llama-3.1-8B-Instruct"):
     """
     Load the fine-tuned model with LoRA adapters.
     
@@ -143,8 +143,8 @@ def main():
     parser.add_argument(
         "--base_model",
         type=str,
-        default="meta-llama/Llama-3-8B-Instruct",
-        help="Base model name (default: Llama 3 8B Instruct)"
+        default="meta-llama/Meta-Llama-3.1-8B-Instruct",
+        help="Base model name (default: Llama 3.1 8B Instruct)"
     )
     parser.add_argument(
         "--question",
