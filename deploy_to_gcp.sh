@@ -7,7 +7,7 @@
 
 # Configuration
 PROJECT_ID="tcs-model-training"  # Set your GCP project ID
-ZONE="us-east1-d"
+ZONE="us-east1-c"
 INSTANCE_NAME="llama-training"
 MACHINE_TYPE="n1-standard-16"  # 16 vCPUs, 60GB RAM (safer for preprocessing)
 BOOT_DISK_SIZE="200GB"
