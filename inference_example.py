@@ -28,22 +28,40 @@ def load_fine_tuned_model(model_path: str, base_model_name: str = "meta-llama/Ll
     tokenizer = AutoTokenizer.from_pretrained(base_model_name)
     tokenizer.pad_token = tokenizer.eos_token
     
-    # Load base model with 4-bit quantization
-    from transformers import BitsAndBytesConfig
+    # Check if CUDA is available
+    use_cuda = torch.cuda.is_available()
     
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.float16,
-        bnb_4bit_use_double_quant=False,
-    )
-    
-    model = AutoModelForCausalLM.from_pretrained(
-        base_model_name,
-        quantization_config=bnb_config,
-        device_map="auto",
-        trust_remote_code=True,
-    )
+    if use_cuda:
+        # Use 4-bit quantization on GPU
+        from transformers import BitsAndBytesConfig
+        
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=False,
+        )
+        
+        model = AutoModelForCausalLM.from_pretrained(
+            base_model_name,
+            quantization_config=bnb_config,
+            device_map="auto",
+            trust_remote_code=True,
+        )
+        print("Model loaded with 4-bit quantization on GPU")
+    else:
+        # CPU mode: Load in FP16 or FP32 (no quantization)
+        print("CUDA not available. Loading model in FP16 for CPU inference...")
+        print("Note: This will use significant RAM (~16GB). Consider using a smaller model or running on GPU.")
+        
+        model = AutoModelForCausalLM.from_pretrained(
+            base_model_name,
+            torch_dtype=torch.float16,  # Use FP16 to save memory
+            device_map="cpu",
+            trust_remote_code=True,
+            low_cpu_mem_usage=True,
+        )
+        print("Model loaded in FP16 on CPU")
     
     # Load LoRA adapters
     print(f"Loading LoRA adapters from: {model_path}")
@@ -102,9 +120,9 @@ def generate_answer(model, tokenizer, prompt: str, max_new_tokens: int = 512):
     # Tokenize
     inputs = tokenizer(prompt, return_tensors="pt")
     
-    # Move to device
-    if torch.cuda.is_available():
-        inputs = {k: v.cuda() for k, v in inputs.items()}
+    # Move to device (CPU or CUDA)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    inputs = {k: v.to(device) for k, v in inputs.items()}
     
     # Generate
     with torch.no_grad():
