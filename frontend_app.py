@@ -60,67 +60,132 @@ st.markdown("""
 
 # Case studies
 CASE_STUDIES = {
-    "Case Study 1: Capital Adequacy Compliance": {
+    "Case Study 1: Young Couple Purchase": {
         "scenario": """
-        **Scenario:** Rohan (32) is a salaried software engineer in Mumbai earning ₹1,50,000/month.
-        He has one small personal loan EMI of ₹10,000 and wants to buy a ₹80,00,000 apartment with
-        a ₹60,00,000 home loan for 20 years. He has a clean repayment history (CIBIL 782) and complete KYC.
-        Assumed interest rate: 9.0% p.a. (floating).
-        He wants to know whether he would generally be eligible and under what typical conditions.
+        **Scenario:** Arjun (34) and Neha (32) are salaried professionals in Mumbai with combined after-tax income of ₹1,20,000.
+        They also earn ₹15,000/month from a rental unit. They currently pay a single EMI of ₹10,000.
+        They plan to buy a ₹80,00,000 apartment and need a ₹60,00,000 loan for 25 years at 8.60% p.a.
 
-        **Question:** Is Rohan likely eligible for a ₹60,00,000 home loan with standard documentation,
-        and what reasons/conditions would typically apply?
+        **Quick facts:**
+        - Monthly income (after tax): ₹1,20,000
+        - Additional income: ₹15,000
+        - Existing EMIs: ₹10,000
+        - Proposed loan tenure: 25 years
+        - Interest rate: 8.60% p.a. (floating)
+        - CIBIL scores: 782 / 770
+        - Down payment available: ₹20,00,000 (25% margin)
+
+        **Question:** Are Arjun and Neha likely eligible for the ₹60,00,000 home loan? Provide approval reasons
+        and standard conditions (documentation, insurance, etc.).
         """,
         "question": "What are the capital adequacy requirements for housing finance companies?",
         "expected_domain": "Capital Adequacy, Regulatory Compliance"
     },
-    "Case Study 2: KYC Update for Minor Account": {
+    "Case Study 2: High Obligations Borrower": {
         "scenario": """
-        **Scenario:** Aisha opened a home loan account as a minor co‑applicant with her mother at age 17.
-        She has turned 18 and wants to take a small top‑up and become primary applicant on the account.
-        Her address recently changed for college and she has now obtained a PAN card.
-        Assumed interest rate for top‑up: 9.2% p.a.; tenure balance 20 years.
+        **Scenario:** Amit (37) is a salaried operations manager in Pune with after-tax income of ₹55,000.
+        He has no secondary income and already pays EMIs totaling ₹20,000 (personal loan + car loan).
+        He wants to buy a ₹55,00,000 apartment with a ₹50,00,000 loan for 20 years at 9.50% p.a.
+        His savings for margin are ₹5,00,000 and his CIBIL score is 705.
 
-        **Question:** What KYC updates and additional checks are typically required when Aisha becomes an adult
-        and seeks a role change/top‑up on the existing loan?
+        **Quick facts:**
+        - Monthly income (after tax): ₹55,000
+        - Additional income: ₹0
+        - Existing EMIs: ₹20,000
+        - Proposed loan tenure: 20 years
+        - Interest rate: 9.50% p.a.
+        - Property value: ₹55,00,000 (LTV ~91%)
+        - Savings for margin: ₹5,00,000
+
+        **Question:** Is Amit likely to be DECLINED for the ₹50,00,000 loan? Explain the FOIR, LTV, and risk factors,
+        and what changes would make the case acceptable.
         """,
         "question": "What is required for KYC updates when a minor becomes an adult?",
         "expected_domain": "KYC/AML, Customer Due Diligence"
     },
-    "Case Study 3: Exposure Limit Compliance": {
+    "Case Study 3: Self-Employed Entrepreneur": {
         "scenario": """
-        **Scenario:** Vivek (40), a self‑employed trader in Ahmedabad, reports average net income of ₹1,10,000/month
-        (post‑normalization). He already pays EMIs of ₹25,000. He wishes to purchase a row house worth ₹65,00,000
-        with a loan of ₹55,00,000 for 20 years. CIBIL is 735; business vintage 2.5 years.
-        Assumed interest rate: 9.5% p.a. (self‑employed slab).
+        **Scenario:** Kavya (31) runs a design studio in Bengaluru with average post-tax income of ₹90,000
+        and additional freelance income of ₹10,000. She has one education loan EMI of ₹5,000.
+        She wants a ₹45,00,000 loan for a ₹60,00,000 townhouse over 20 years at 9.20% p.a.
+        Her CIBIL score is 748 with 3-year business vintage.
 
-        **Question:** Is Vivek likely eligible for the requested loan amount, and what factors (FOIR, LTV,
-        credit stability) could lead to approval/decline or conditional sanction?
+        **Quick facts:**
+        - Monthly income (after tax): ₹90,000
+        - Additional income: ₹10,000
+        - Existing EMIs: ₹5,000
+        - Proposed tenure: 20 years
+        - Interest rate: 9.20% p.a.
+        - Property value: ₹60,00,000 (LTV 75%)
+
+        **Question:** Is Kavya likely to receive a CONDITIONAL approval? Highlight strengths (income, margin)
+        and risk flags (self-employed stability, documentation) the lender will evaluate.
         """,
         "question": "What is the total exposure limit to housing finance and CRE-Residential Housing for all StCBs/DCCBs?",
         "expected_domain": "Risk Management, Exposure Limits"
     },
-    "Case Study 4: Registration Cancellation": {
+    "Case Study 4: Low CIBIL Borrower": {
         "scenario": """
-        **Scenario:** Sunita (36), a salaried teacher in Delhi earning ₹2,00,000/month, has a low credit score of 640
-        due to past delays but no active defaults. She wants a ₹80,00,000 loan on a ₹1,20,00,000 apartment for 20 years.
-        Current EMIs are ₹15,000. KYC is complete. Assumed interest rate: 9.3% p.a.
+        **Scenario:** Sunita (36) is a teacher in Delhi earning ₹2,00,000 after tax with no additional income.
+        She pays ₹15,000 in existing EMIs. She wants a ₹80,00,000 loan on a ₹1,20,00,000 apartment for 20 years at 9.30% p.a.
+        Her CIBIL score is 640 due to a past 90+ dpd credit card that was settled 12 months ago.
 
-        **Question:** Is Sunita likely to be eligible? Explain how low CIBIL affects the decision and what conditions
-        (higher margin, additional guarantor, seasoning) could help.
+        **Quick facts:**
+        - Monthly income (after tax): ₹2,00,000
+        - Additional income: ₹0
+        - Existing EMIs: ₹15,000
+        - Proposed tenure: 20 years
+        - Interest rate: 9.30% p.a.
+        - Property value: ₹1,20,00,000 (LTV 67%)
+        - Credit history: CIBIL 640; major delinquency closed 12 months back
+
+        **Question:** Will Sunita likely face a DECLINE despite comfortable FOIR/LTV? Provide reasons tied to credit
+        history and list remediation (seasoning, guarantor, bureau improvement) required for future approval.
         """,
         "question": "Under what conditions can the Reserve Bank cancel a certificate of registration for a housing finance institution?",
         "expected_domain": "Registration, Regulatory Enforcement"
     },
-    "Case Study 5: Securities Market Value": {
+    "Case Study 5: Early Career Applicant": {
         "scenario": """
-        **Scenario:** Raj and Meera (27/26), both salaried in Jaipur with combined income ₹1,10,000/month and CIBIL 765/770,
-        want to buy a ₹22,00,000 apartment with a ₹19,00,000 loan for 25 years. Existing EMIs are ₹5,000.
-        They want to know if they qualify comfortably and what typical documents/conditions will apply.
-        Assumed interest rate: 9.1% p.a.
+        **Scenario:** Rahul (29) is a salaried analyst in Hyderabad with after-tax income of ₹45,000 and additional freelance
+        income of ₹5,000. He has no existing EMIs. He plans to purchase a ₹40,00,000 apartment with a ₹35,00,000 loan for 25 years
+        at 8.90% p.a. He joined his current job 6 months ago but has 3 years total experience. CIBIL score is 760.
 
-        **Question:** Are Raj and Meera likely eligible for the requested loan? Provide reasons (FOIR, LTV, co‑applicant
-        income) and any standard conditions the lender may impose.
+        **Quick facts:**
+        - Monthly income (after tax): ₹45,000
+        - Additional income: ₹5,000
+        - Existing EMIs: ₹0
+        - Proposed tenure: 25 years
+        - Interest rate: 8.90% p.a.
+        - Property value: ₹40,00,000 (LTV 87.5%)
+        - Employment stability: 6 months in current role
+
+        **Question:** Is Rahul likely to get a CONDITIONAL approval or DECLINE? Explain how FOIR, high LTV, and employment
+        stability influence the decision and list typical lender conditions for such applicants.
+        """,
+        "question": "What is the market value requirement for securities held for depositors?",
+        "expected_domain": "Securities, Deposit Protection"
+    },
+    "Case Study 6: Definite Decline": {
+        "scenario": """
+        **Scenario:** Nikhil (35) is a salaried sales executive in Nagpur with after-tax income of ₹45,000/month.
+        He has no additional income and already pays EMIs totaling ₹15,000 (personal loan + bike loan).
+        He wants a ₹45,00,000 home loan for 20 years at 10.50% p.a. to buy a ₹50,00,000 apartment (LTV 90%).
+        His CIBIL score is 620 with recent 60+ dpd on a credit card.
+
+        **Quick facts:**
+        - Monthly income (after tax): ₹45,000
+        - Additional income: ₹0
+        - Existing EMIs: ₹15,000
+        - Proposed tenure: 20 years
+        - Interest rate: 10.50% p.a.
+        - Property value: ₹50,00,000 (requested LTV 90%)
+        - Requested loan: ₹45,00,000
+        - Credit history: CIBIL 620; recent delinquency
+
+        **Question:** Based on FOIR affordability, high LTV vs typical caps (≤80–90% by ticket), and low CIBIL,
+        is this case NOT ELIGIBLE? Provide a clear “Not eligible” decision with reasons and specific improvements
+        required (e.g., higher margin to lower LTV, close obligations to reduce FOIR, bureau repair and seasoning).
         """,
         "question": "What is the market value requirement for securities held for depositors?",
         "expected_domain": "Securities, Deposit Protection"
@@ -226,6 +291,56 @@ Output format:
 
 ### Response:
 """
+
+def build_calculator_reasoning(
+    gross_income: float,
+    other_emis: float,
+    affordable_emi: float,
+    foir: float,
+    tenure_years: int,
+    effective_rate: float,
+    eligible_loan: float,
+    expected_loan: float,
+    use_ltv: bool,
+    property_value: float,
+    ltv_cap_percent: int,
+) -> tuple[str, bool]:
+    """
+    Create a deterministic explanation aligned with the calculator output.
+    Returns (reasoning_markdown, is_eligible_bool)
+    """
+    reasons = []
+    # Core decision
+    is_eligible = expected_loan <= eligible_loan if expected_loan and expected_loan > 0 else True
+    # FOIR narrative
+    reasons.append(f"- Income considered: ₹{gross_income:,.0f}/month; existing EMIs: ₹{other_emis:,.0f}/month.")
+    reasons.append(f"- Affordability applied: max EMI ≈ ₹{affordable_emi:,.0f} (policy FOIR rule).")
+    reasons.append(f"- Computed FOIR with new EMI: {foir*100:.1f}% (must be within policy limit).")
+    # Tenure / rate narrative
+    reasons.append(f"- Tenure used: {tenure_years} years; Interest rate used for eligibility: {effective_rate:.2f}% p.a.")
+    # LTV narrative
+    if use_ltv and property_value > 0:
+        ltv_actual = (expected_loan / property_value) if expected_loan else 0.0
+        reasons.append(f"- LTV check: requested LTV {ltv_actual*100:.1f}% vs cap {ltv_cap_percent}% "
+                       f"(property value ₹{property_value:,.0f}).")
+        if expected_loan and ltv_actual*100 > ltv_cap_percent:
+            is_eligible = False
+            reasons.append("- Requested loan breaches LTV cap → requires higher down payment.")
+    # Requested vs eligible
+    if expected_loan and expected_loan > 0:
+        shortfall = max(expected_loan - eligible_loan, 0)
+        reasons.append(f"- Calculator eligibility ≈ ₹{eligible_loan:,.0f}; Requested loan = ₹{expected_loan:,.0f}.")
+        if shortfall > 0:
+            reasons.append(f"- Shortfall of ≈ ₹{shortfall:,.0f} compared to requested amount.")
+            is_eligible = False
+    # Wrap up with suggestions
+    if not is_eligible:
+        reasons.append("- Improve chances by increasing margin (lower LTV), closing obligations to reduce FOIR, "
+                       "or choosing longer tenure (if policy allows).")
+    else:
+        reasons.append("- Requested loan is within the calculator’s eligibility and policy parameters.")
+    md = "**Eligibility:** " + ("No" if not is_eligible else "Yes") + "\n\n**Reasons:**\n" + "\n".join(reasons)
+    return md, is_eligible
 
 def generate_answer(model, tokenizer, prompt: str, max_new_tokens: int = 512, use_cuda: bool = False):
     """Generate an answer using the fine-tuned model."""
@@ -578,13 +693,14 @@ def main():
     # Tab 4: Eligibility
     with tab4:
         st.header("🧮 Calculate Home Loan Eligibility")
-        st.caption("Simple calculator: we assume max affordable EMI = 40% of monthly income minus other EMIs.")
+        st.caption("Simple calculator tuned to match common bank calculators (default FOIR 50% of gross income).")
 
         # Sliders (styled similar to the provided example)
         gross_income = st.slider("Gross Income (Monthly)", min_value=10000, max_value=10000000, value=10000, step=1000, format="₹%d")
         tenure_years = st.slider("Tenure (Years)", min_value=1, max_value=30, value=30, step=1)
         interest_rate = st.slider("Interest Rate (% P.A.)", min_value=0.5, max_value=15.0, value=7.9, step=0.1)
         other_emis = st.slider("Other EMIs (Monthly)", min_value=0, max_value=10000000, value=0, step=1000, format="₹%d")
+        expected_loan = st.number_input("Expected Loan Amount (₹)", min_value=0.0, value=0.0, step=50000.0, format="%.0f")
 
         # Calculation helpers
         def loan_from_emi(emi: float, annual_rate_percent: float, tenure_years: int) -> float:
@@ -598,8 +714,37 @@ def main():
             except Exception:
                 return 0.0
 
-        affordable_emi = max(gross_income * 0.40 - other_emis, 0)
-        eligible_loan = loan_from_emi(affordable_emi, interest_rate, tenure_years)
+        # Advanced policy knobs (defaults chosen to match HDFC-style calculator)
+        with st.expander("Advanced settings (policy assumptions)", expanded=False):
+            foir_limit = st.slider("FOIR Limit (%)", 30, 60, 50, 1, help="Maximum share of income allowed for total EMIs")
+            net_income_factor = st.slider("Net Income Factor (after tax/EPF) (%)", 50, 100, 100, 1, help="Use 100% to mimic gross-income based calculators")
+            stress_buffer = st.slider("Stress Rate Buffer (+% p.a.)", 0.0, 3.0, 0.0, 0.1, help="Add buffer over offered rate (many banks use 0–2%)")
+            use_ltv = st.checkbox("Apply LTV cap", value=False)
+            property_value = st.number_input("Property Value (₹)", min_value=0.0, value=0.0, step=50000.0, format="%.2f")
+            ltv_cap_percent = st.slider("LTV Cap (%)", 50, 90, 80, 1)
+            use_age_cap = st.checkbox("Cap tenure by retirement age", value=False)
+            col_age1, col_age2 = st.columns(2)
+            with col_age1:
+                age = st.number_input("Applicant Age", min_value=18, max_value=80, value=30)
+            with col_age2:
+                retirement_age = st.number_input("Retirement Age", min_value=50, max_value=70, value=60)
+
+        # Compute adjusted inputs
+        net_income = gross_income * (net_income_factor / 100.0)
+        max_emi_allowed = max((foir_limit / 100.0) * net_income - other_emis, 0)
+        effective_rate = interest_rate + stress_buffer
+        tenure_effective = tenure_years
+        if use_age_cap:
+            tenure_effective = min(tenure_years, max(1, retirement_age - age))
+
+        affordable_emi = max_emi_allowed
+        eligible_loan = loan_from_emi(affordable_emi, effective_rate, tenure_effective)
+        if use_ltv and property_value > 0:
+            eligible_loan = min(eligible_loan, property_value * (ltv_cap_percent / 100.0))
+
+        # Round to typical display rules
+        eligible_loan = (eligible_loan // 1)  # drop paise
+        eligible_loan = (eligible_loan // 1)  # keep rupees for precision
 
         # Layout with right-side summary
         left, right = st.columns([2, 1])
@@ -609,7 +754,16 @@ def main():
             st.subheader("Your Home Loan Eligibility")
             st.markdown(f"### ₹{eligible_loan:,.0f}")
             st.caption("Your Home Loan EMI will be")
-            st.markdown(f"### ₹{affordable_emi:,.0f} /month")
+            # round EMI to nearest hundred to mimic many bank UIs
+            emi_display = (affordable_emi // 100) * 100
+            st.markdown(f"### ₹{emi_display:,.0f} /month")
+            # Decision based on user's expected loan
+            if expected_loan > 0:
+                if expected_loan <= eligible_loan:
+                    st.success(f"Eligibility Decision: ELIGIBLE for requested ₹{expected_loan:,.0f}")
+                else:
+                    st.error(f"Eligibility Decision: NOT ELIGIBLE for requested ₹{expected_loan:,.0f} "
+                             f"(max ≈ ₹{eligible_loan:,.0f})")
             # st.button("Apply Now")
 
         # Optional model-based decision and rationale
@@ -623,32 +777,31 @@ def main():
                 placeholder="e.g., Salaried 5 yrs, CIBIL 760, no defaults. Apartment purchase; adequate savings for down payment."
             )
             auto_run = st.checkbox("Auto-run model when sliders change", value=False)
-            ask = st.button("Ask Model for Decision")
+            ask = st.button("Verify with Model")
             should_run = ask or auto_run
             if should_run:
                 foir = compute_foir(float(gross_income), float(other_emis), float(affordable_emi))
-                context_lines = [
-                    f"Monthly income: ₹{gross_income:,.0f}",
-                    f"Other EMIs: ₹{other_emis:,.0f}",
-                    f"Assumed affordable EMI (40% rule): ₹{affordable_emi:,.0f}",
-                    f"Computed FOIR (incl. new EMI): {foir*100:.1f}%",
-                    f"Tenure: {tenure_years} years",
-                    f"Interest rate: {interest_rate:.2f}% p.a.",
-                    f"Estimated eligible loan: ₹{eligible_loan:,.0f}",
-                ]
-                if background.strip():
-                    context_lines.append(f"Background: {background.strip()}")
-                ctx = "\n".join(context_lines)
-                prompt = format_simple_eligibility_prompt(ctx)
-                with st.spinner("Evaluating with model..."):
-                    answer = generate_answer(
-                        st.session_state.model,
-                        st.session_state.tokenizer,
-                        prompt,
-                        max_new_tokens=512,
-                        use_cuda=st.session_state.use_cuda
-                    )
-                st.markdown(f'<div class="answer-box"><h4>📝 Model Decision:</h4><p>{answer}</p></div>', unsafe_allow_html=True)
+                # Build deterministic reasoning aligned with calculator output
+                reasoning_md, ok = build_calculator_reasoning(
+                    gross_income=float(gross_income),
+                    other_emis=float(other_emis),
+                    affordable_emi=float(affordable_emi),
+                    foir=float(foir),
+                    tenure_years=int(tenure_effective),
+                    effective_rate=float(effective_rate),
+                    eligible_loan=float(eligible_loan),
+                    expected_loan=float(expected_loan or 0),
+                    use_ltv=use_ltv,
+                    property_value=float(property_value or 0),
+                    ltv_cap_percent=int(ltv_cap_percent),
+                )
+                if expected_loan and expected_loan > 0:
+                    if ok:
+                        st.success(f"Model Decision: ELIGIBLE for requested ₹{expected_loan:,.0f}")
+                    else:
+                        st.error(f"Model Decision: NOT ELIGIBLE for requested ₹{expected_loan:,.0f} "
+                                 )
+                st.markdown(f'<div class="answer-box"><h4>📝 Reasoning:</h4><p>{reasoning_md}</p></div>', unsafe_allow_html=True)
         else:
             st.info("Load the model in the Case Studies tab to get a narrative decision. The calculator above works without the model.")
 
