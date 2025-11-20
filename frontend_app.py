@@ -502,11 +502,32 @@ def main():
         if use_adapters and not os.path.exists(model_path):
             st.warning(f"⚠️ Adapters path not found: {model_path}")
     
-    # Main content tabs
-    tab1, tab2, tab3, tab4 = st.tabs(["🏠 Home", "📚 Case Studies", "💬 Custom Query", "🧮 Eligibility"])
+    # Main content tabs (Case Studies hidden for now)
+    tab_home, tab_custom, tab_elig = st.tabs(["🏠 Home", "💬 Custom Query", "🧮 Eligibility"])
+
+    # Initialize model state if not present
+    if 'model_loaded' not in st.session_state:
+        st.session_state.model_loaded = False
+        st.session_state.model = None
+        st.session_state.tokenizer = None
+        st.session_state.use_cuda = False
+
+    def attempt_model_load(button_label: str, key: str):
+        """Render a load button and load the model if clicked."""
+        if st.button(button_label, type="primary", key=key):
+            with st.spinner("Loading model... This may take a few minutes."):
+                model, tokenizer, use_cuda = load_model(model_path, base_model, use_adapters)
+                if model is not None:
+                    st.session_state.model = model
+                    st.session_state.tokenizer = tokenizer
+                    st.session_state.use_cuda = use_cuda
+                    st.session_state.model_loaded = True
+                    st.success("✅ Model loaded successfully!")
+                else:
+                    st.error("❌ Failed to load model. Please check the configuration.")
     
     # Tab 1: Home
-    with tab1:
+    with tab_home:
         st.header("Welcome to Regulatory Compliance Q&A Assistant")
         
         col1, col2 = st.columns(2)
@@ -554,104 +575,14 @@ def main():
         3. **Model Configuration**: Adjust settings in the sidebar
         """)
     
-    # Tab 2: Case Studies
-    with tab2:
-        st.header("📚 Regulatory Compliance Case Studies")
-        st.write("Test the model with real-world regulatory scenarios:")
-        
-        # Load model button
-        if 'model_loaded' not in st.session_state:
-            st.session_state.model_loaded = False
-            st.session_state.model = None
-            st.session_state.tokenizer = None
-            st.session_state.use_cuda = False
-        
-        if st.button("🔄 Load Model", type="primary"):
-            with st.spinner("Loading model... This may take a few minutes."):
-                model, tokenizer, use_cuda = load_model(model_path, base_model, use_adapters)
-                if model is not None:
-                    st.session_state.model = model
-                    st.session_state.tokenizer = tokenizer
-                    st.session_state.use_cuda = use_cuda
-                    st.session_state.model_loaded = True
-                    st.success("✅ Model loaded successfully!")
-                else:
-                    st.error("❌ Failed to load model. Please check the model path.")
-        
-        if st.session_state.model_loaded:
-            st.success("✅ Model is ready!")
-            
-            # Case study selector
-            selected_case = st.selectbox(
-                "Select a Case Study:",
-                list(CASE_STUDIES.keys())
-            )
-            
-            case = CASE_STUDIES[selected_case]
-            
-            # Display case study (dedent to avoid markdown code blocks from indentation)
-            scenario_md = textwrap.dedent(case["scenario"]).strip()
-            st.markdown('<div class="case-study-box">', unsafe_allow_html=True)
-            st.markdown(scenario_md)
-            st.markdown('</div>', unsafe_allow_html=True)
-            
-            # Expected domain
-            st.info(f"**Expected Domain:** {case['expected_domain']}")
-            
-            # Decide what to ask: eligibility decision vs general answer
-            mode = st.radio(
-                "Response Type",
-                ["Eligibility decision with reasons", "General regulatory answer"],
-                horizontal=True
-            )
-            # Generate answer button
-            if st.button("🔍 Get Answer", type="primary"):
-                with st.spinner("Generating answer..."):
-                    if mode == "Eligibility decision with reasons":
-                        prompt = format_case_study_eligibility_prompt(case["scenario"], case.get("question"))
-                    else:
-                        prompt = format_prompt(case["question"], context=textwrap.dedent(case["scenario"]).strip())
-                    answer = generate_answer(
-                        st.session_state.model,
-                        st.session_state.tokenizer,
-                        prompt,
-                        max_tokens,
-                        st.session_state.use_cuda
-                    )
-                    
-                    st.markdown(f'<div class="answer-box"><h4>📝 Model Answer:</h4><p>{answer}</p></div>', unsafe_allow_html=True)
-                    
-                    # Evaluation section
-                    st.subheader("✅ Evaluation")
-                    col1, col2, col3 = st.columns(3)
-                    
-                    with col1:
-                        relevance = st.radio(
-                            "Relevance to Question:",
-                            ["✅ Excellent", "✅ Good", "⚠️ Fair", "❌ Poor"],
-                            key=f"relevance_{selected_case}"
-                        )
-                    
-                    with col2:
-                        accuracy = st.radio(
-                            "Regulatory Accuracy:",
-                            ["✅ Excellent", "✅ Good", "⚠️ Fair", "❌ Poor"],
-                            key=f"accuracy_{selected_case}"
-                        )
-                    
-                    with col3:
-                        completeness = st.radio(
-                            "Answer Completeness:",
-                            ["✅ Excellent", "✅ Good", "⚠️ Fair", "❌ Poor"],
-                            key=f"completeness_{selected_case}"
-                        )
-        else:
-            st.warning("⚠️ Please load the model first using the button above.")
-    
-    # Tab 3: Custom Query
-    with tab3:
+    # Tab 2 (visible): Custom Query
+    with tab_custom:
         st.header("💬 Custom Regulatory Query")
         st.write("Ask your own regulatory compliance questions:")
+        
+        if not st.session_state.model_loaded:
+            st.info("🔄 Load the model to enable custom queries.")
+            attempt_model_load("Load Model", key="load_model_custom")
         
         if st.session_state.model_loaded:
             # Question input
@@ -688,12 +619,16 @@ def main():
             elif generate_btn:
                 st.warning("⚠️ Please enter a question first.")
         else:
-            st.warning("⚠️ Please load the model first in the Case Studies tab.")
+            st.warning("⚠️ Please load the model using the button above.")
 
     # Tab 4: Eligibility
-    with tab4:
+    with tab_elig:
         st.header("🧮 Calculate Home Loan Eligibility")
         st.caption("Simple calculator tuned to match common bank calculators (default FOIR 50% of gross income).")
+
+        if not st.session_state.model_loaded:
+            st.info("🔄 Load the model to generate narrative reasoning.")
+            attempt_model_load("Load Model", key="load_model_elig")
 
         # Sliders (styled similar to the provided example)
         gross_income = st.slider("Gross Income (Monthly)", min_value=10000, max_value=10000000, value=10000, step=1000, format="₹%d")
@@ -747,35 +682,27 @@ def main():
         eligible_loan = (eligible_loan // 1)  # keep rupees for precision
 
         # Layout with right-side summary
-        left, right = st.columns([2, 1])
-        with left:
-            st.write("")  # spacing
-        with right:
-            st.subheader("Your Home Loan Eligibility")
-            st.markdown(f"### ₹{eligible_loan:,.0f}")
-            st.caption("Your Home Loan EMI will be")
-            # round EMI to nearest hundred to mimic many bank UIs
-            emi_display = (affordable_emi // 100) * 100
-            st.markdown(f"### ₹{emi_display:,.0f} /month")
-            # Decision based on user's expected loan
-            if expected_loan > 0:
-                if expected_loan <= eligible_loan:
-                    st.success(f"Eligibility Decision: ELIGIBLE for requested ₹{expected_loan:,.0f}")
-                else:
-                    st.error(f"Eligibility Decision: NOT ELIGIBLE for requested ₹{expected_loan:,.0f} "
-                             f"(max ≈ ₹{eligible_loan:,.0f})")
+        # Summary panel hidden as requested. We still compute eligibility above for use in decisions.
+        # Decision banner (calculator-based) shown below without the separate summary box.
+        # Decision based on user's expected loan
+        # if expected_loan > 0:
+        #     emi_display = (affordable_emi // 100) * 100  # keep for potential future display
+        #     if expected_loan <= eligible_loan:
+        #         st.success(f"Eligibility Decision: ELIGIBLE for requested ₹{expected_loan:,.0f} "
+        #                    f"(calculator max ≈ ₹{eligible_loan:,.0f})")
+        #     else:
+        #         st.error(f"Eligibility Decision: NOT ELIGIBLE for requested ₹{expected_loan:,.0f} "
+        #                  f"(calculator max ≈ ₹{eligible_loan:,.0f})")
             # st.button("Apply Now")
 
         # Optional model-based decision and rationale
         st.divider()
-        st.subheader("Model-based Decision (Optional)")
+        st.subheader("Model-based Decision ")
         if 'model_loaded' not in st.session_state:
             st.session_state.model_loaded = False
         if st.session_state.model_loaded:
-            background = st.text_area(
-                "Optional Background (employment, credit, property notes):",
-                placeholder="e.g., Salaried 5 yrs, CIBIL 760, no defaults. Apartment purchase; adequate savings for down payment."
-            )
+            # Background text input hidden as requested
+            background = ""
             auto_run = st.checkbox("Auto-run model when sliders change", value=False)
             ask = st.button("Verify with Model")
             should_run = ask or auto_run
@@ -797,13 +724,14 @@ def main():
                 )
                 if expected_loan and expected_loan > 0:
                     if ok:
-                        st.success(f"Model Decision: ELIGIBLE for requested ₹{expected_loan:,.0f}")
+                        st.success(f"Model Decision: ELIGIBLE for requested ₹{expected_loan:,.0f} "
+                                  )
                     else:
                         st.error(f"Model Decision: NOT ELIGIBLE for requested ₹{expected_loan:,.0f} "
                                  )
                 st.markdown(f'<div class="answer-box"><h4>📝 Reasoning:</h4><p>{reasoning_md}</p></div>', unsafe_allow_html=True)
         else:
-            st.info("Load the model in the Case Studies tab to get a narrative decision. The calculator above works without the model.")
+            st.info("Load the model using the button above to get narrative reasoning. The calculator works even without the model.")
 
 if __name__ == "__main__":
     main()
